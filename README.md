@@ -2,7 +2,7 @@
 Portfolio
 
 
-[Limpon](https://oksanakich.github.io/limbon/"1st")
+[Limpon](https://oksanakich.github.io/limbon/ "1st")
 
 
-[Waxom](oksanakich.github.io/Waxom/"2nd")
+[Waxom](oksanakich.github.io/Waxom/ "2nd")
