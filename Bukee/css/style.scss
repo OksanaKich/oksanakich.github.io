@@ -310,6 +310,18 @@ h3 {
             height: 373px;
             background-position: center;
         }
+        @media(max-width: 360px){
+            margin: 0 auto;
+            width: 260px;
+            height: 373px;
+            background-position: center;
+        }
+        @media(max-width: 350px){
+            margin: 0 auto;
+            width: 220px;
+            height: 316px;
+            background-position: center;
+        }
         @media(max-width: 340px){
             margin: 0 auto;
             width: 220px;
