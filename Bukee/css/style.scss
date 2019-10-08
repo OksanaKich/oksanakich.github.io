@@ -343,6 +343,12 @@ h3 {
             @media(max-width: 350px){
                 font-size: 26px;
             }
+            @media(max-width: 320px){
+                font-size: 24px;
+            }
+            @media(max-width: 300px){
+                font-size: 20px;
+            }
             span {
                 font-size: 14px;
                 font-family: 'Open Sans', sans-serif;
