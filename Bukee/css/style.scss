@@ -370,6 +370,9 @@ h3 {
                 display: block;
                 letter-spacing: 0.5px;
                 margin-top: 12px;
+                @media(max-width: 440px){
+                    font-size: 12px;
+                }
                 @media(max-width: 350px){
                     font-size: 10px;
                 }
@@ -383,6 +386,10 @@ h3 {
             left: 86px;
             bottom: 38px;
             letter-spacing: 0.7px;
+            @media(max-width: 400px){
+                font-size: 12px;
+                bottom: 60px;
+            }
             @media(max-width: 350px){
                 font-size: 12px;
                 bottom: 60px;
