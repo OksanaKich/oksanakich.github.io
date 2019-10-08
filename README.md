@@ -2,7 +2,7 @@
 Portfolio Studying Projects
 
 
-[inWeb Personal Page](https://oksanakich.github.io/inweb/dist/)
+[inWeb 3-pages website](https://oksanakich.github.io/inweb/)
 
 [Bukee - Book Author One Page](https://oksanakich.github.io/Bukee/)
 
