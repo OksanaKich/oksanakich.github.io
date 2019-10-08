@@ -3842,18 +3842,6 @@ $(function(){
         slidesToShow: 2,
         slidesToScroll: 2,
       });
-     /* @media  doesn't work*/
-    portfolio.slick({
-      responsive: [{
-          breakpoint: 1200,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              infinite: true,
-            }
-      }]
-    });
-    
       $("#portfolio-arrow-prev").on("click", function(event){
         event.preventDefault();
         portfolio.slick('slickPrev');
