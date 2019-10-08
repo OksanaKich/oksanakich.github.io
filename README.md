@@ -1,8 +1,8 @@
 # oksanakich.github.io
 Portfolio Studying Projects
 
-[Book Author One Page - Bukee](https://oksanakich.github.io/Bukee/ "2nd Studying Project")
+[Bukee - Book Author One Page](https://oksanakich.github.io/Bukee/)
 
-[Landingpage - Waxom](https://oksanakich.github.io/Waxom/ "2nd Studying Project")
+[Waxom - Landingpage ](https://oksanakich.github.io/Waxom/ "2nd Studying Project")
 
-[Landingpage - Limpon](https://oksanakich.github.io/Limbon/ "1st studying project.Landingpage.")
+[Limpon - Landingpage](https://oksanakich.github.io/Limbon/ "1st studying project.Landingpage.")
