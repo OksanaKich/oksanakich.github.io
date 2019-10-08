@@ -281,7 +281,6 @@ h3 {
     height: 640px;
     background-image: url(../img/book.svg);
     background-repeat: no-repeat;
-    /* background-position: center; */
     -ms-flex-preferred-size: 500px;
         flex-basis: 500px; }
     @media (max-width: 1020px) {
