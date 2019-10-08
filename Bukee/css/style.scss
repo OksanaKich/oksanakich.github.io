@@ -285,16 +285,36 @@ h3 {
         height: 640px;
         background-image: url(../img/book.svg); 
         background-repeat: no-repeat;
-        /* background-position: center; */
         flex-basis: 500px;
         @media(max-width: 1020px){
+            background-position: center;
             flex-basis: 500px;
             margin: 0 auto;
             margin-top: 57px;
         }
         @media(max-width: 440px){
             margin: 0 auto;
-            margin-left: -60px;
+            width: 375px;
+            height: 538px;
+            background-position: center;
+        }
+        @media(max-width: 400px){
+            margin: 0 auto;
+            width: 350px;
+            height: 502px;
+            background-position: center;
+        }
+        @media(max-width: 350px){
+            margin: 0 auto;
+            width: 300px;
+            height: 431px;
+            background-position: center;
+        }
+        @media(max-width: 340px){
+            margin: 0 auto;
+            width: 275px;
+            height: 395px;
+            background-position: center;
         }
         &__title {
             font-size: 36px;
@@ -303,6 +323,14 @@ h3 {
             left: 131px;
             top: 90px;
             letter-spacing: 0.9px;
+            @media(max-width: 440px){
+                left: 70px;
+                text-align: center;
+                margin: 0 auto;
+            }
+            @media(max-width: 350px){
+                font-size: 26px;
+            }
             span {
                 font-size: 14px;
                 font-family: 'Open Sans', sans-serif;
@@ -311,7 +339,10 @@ h3 {
                 color: $accent-color;
                 display: block;
                 letter-spacing: 0.5px;
-                margin-top: 10px;
+                margin-top: 12px;
+                @media(max-width: 350px){
+                    font-size: 10px;
+                }
             }
         }
         &__author {
@@ -322,6 +353,10 @@ h3 {
             left: 86px;
             bottom: 38px;
             letter-spacing: 0.7px;
+            @media(max-width: 350px){
+                font-size: 12px;
+                bottom: 60px;
+            }
         }
     }
 }
