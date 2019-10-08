@@ -305,14 +305,14 @@ h3 {
     @media (max-width: 350px) {
       .block-book-demo {
         margin: 0 auto;
-        width: 300px;
-        height: 431px;
+        width: 260px;
+        height: 373px;
         background-position: center; } }
     @media (max-width: 340px) {
       .block-book-demo {
         margin: 0 auto;
-        width: 275px;
-        height: 395px;
+        width: 220px;
+        height: 316px;
         background-position: center; } }
     @media (max-width: 320px) {
       .block-book-demo {
