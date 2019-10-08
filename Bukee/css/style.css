@@ -302,7 +302,7 @@ h3 {
         width: 350px;
         height: 502px;
         background-position: center; } }
-    @media (max-width: 380px) {
+    @media (max-width: 385px) {
       .block-book-demo {
         margin: 0 auto;
         width: 260px;
