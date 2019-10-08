@@ -317,14 +317,14 @@ h3 {
     @media (max-width: 320px) {
       .block-book-demo {
         margin: 0 auto;
-        width: 275px;
-        height: 395px;
+        width: 250px;
+        height: 359px;
         background-position: center; } }
     @media (max-width: 300px) {
       .block-book-demo {
         margin: 0 auto;
-        width: 250px;
-        height: 359px;
+        width: 200px;
+        height: 287px;
         background-position: center; } }
     .block-book-demo__title {
       font-size: 36px;
