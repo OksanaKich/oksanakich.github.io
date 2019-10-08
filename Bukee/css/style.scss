@@ -285,7 +285,7 @@ h3 {
         height: 640px;
         background-image: url(../img/book.svg); 
         background-repeat: no-repeat;
-        background-position: center;
+        /* background-position: center; */
         flex-basis: 500px;
         @media(max-width: 1020px){
             flex-basis: 500px;
