@@ -360,16 +360,16 @@ h3 {
         .block-book-demo__title {
           font-size: 26px;
           left: 31px;
-          top: 100px; } }
+          top: 120px; } }
       @media (max-width: 320px) {
         .block-book-demo__title {
           font-size: 24px;
-          left: 31px;
+          left: 30px;
           top: 150px; } }
       @media (max-width: 300px) {
         .block-book-demo__title {
           font-size: 20px;
-          left: 31px;
+          left: 30px;
           top: 180px; } }
       .block-book-demo__title span {
         font-size: 14px;
