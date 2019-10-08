@@ -314,6 +314,12 @@ h3 {
         width: 275px;
         height: 395px;
         background-position: center; } }
+    @media (max-width: 320px) {
+      .block-book-demo {
+        margin: 0 auto;
+        width: 275px;
+        height: 395px;
+        background-position: center; } }
     .block-book-demo__title {
       font-size: 36px;
       text-transform: uppercase;
