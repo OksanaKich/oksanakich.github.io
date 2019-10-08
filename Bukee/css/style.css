@@ -347,9 +347,9 @@ h3 {
       letter-spacing: 0.9px; }
       @media (max-width: 440px) {
         .block-book-demo__title {
-          left: 70px;
           text-align: center;
-          margin: 0 auto; } }
+          margin: 0 auto;
+          font-size: 26px; } }
       @media (max-width: 350px) {
         .block-book-demo__title {
           font-size: 26px; } }
