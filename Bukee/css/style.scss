@@ -322,6 +322,12 @@ h3 {
             height: 395px;
             background-position: center;
         }
+        @media(max-width: 300px){
+            margin: 0 auto;
+            width: 250px;
+            height: 359px;
+            background-position: center;
+        }
         &__title {
             font-size: 36px;
             text-transform: uppercase;
