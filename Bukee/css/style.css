@@ -700,7 +700,15 @@ h3 {
     max-width: 400px;
     position: relative; }
     .block-blog-img img {
+      margin: 0 auto;
       margin: 0 auto; }
+      @media (max-width: 400px) {
+        .block-blog-img img {
+          width: 320px; } }
+      @media (max-width: 350px) {
+        .block-blog-img img {
+          margin-left: -20px;
+          width: 300px; } }
   .block-blog-info {
     font-size: 15px;
     /*         display: flex;
