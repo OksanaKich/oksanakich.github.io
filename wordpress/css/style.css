@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.promo {
+    height: 800px;
+    background: url(../img/bgdark.jpg) center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+.wordpress_icon {
+    height: 75px;
+    width: 75px;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    color: #fff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.subtitle-up {
+    margin-top: 53px;
+}
+.subtitle {
+    color: #028cb0;
+    font-family: "Roboto - Black";
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.title {
+    color: #fff;
+    font-family: "Roboto - Black";
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 25px;
+}
+.subtitle-down {
+    margin-top: 25px;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 130px;
+    width: 180px;
+    height: 70px;
+    box-shadow:  0 0 0 rgba(0, 0, 0, 0.18);
+    border: 3px outset  rgba(136, 172, 197, 0.808);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    color: #fff;
+    font-family: "Roboto Condended";
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.more {
+    margin-top: 120px;
+}
+.more .more-text {
+    color: #fff;
+    font-family: "Roboto-Thin", "AdobeInvisFont", "MyriadPro-Regular";
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.arrow {
+    display: block;
+    fill: #fff;
+    height: 30px;
+    width: 30px;
+    transform: rotate(90deg);
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.content_img {
+    width: 342px;
+    height: 201px;
+}
+.content {
+    height: 604px;
+    background-color: #EFEFEF;
+    padding: 85px 0 75px 0;
+}
+.content_header {
+    color: #000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+
+}
+.content_divider {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 217px;
+    height: 3px;
+    background-color: #028cb0;
+}
+.content_subheader {
+    color: #000;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+.content_wrap {
+    margin-top: 45px;
+}
+.content_item {
+    display: inline-block;
+    width: 339px;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 15px;
+}
+.content_img {
+    width: 100%;
+}
+.content_descr {
+    margin-top: 35px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
