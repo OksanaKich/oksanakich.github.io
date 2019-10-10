@@ -365,50 +365,50 @@ footer {
         text-align: center;
         vertical-align: top;
     }
-    @media (max-width: 900px) {
-        .optimization_img {
-          margin-left: -65px;
-        }
+@media (max-width: 900px) {
+    .optimization_img {
+        margin-left: -65px;
     }
-    @media (max-width: 750px) {
-        .optimization_img {
-          margin-left: -60px;
-        }
+}
+@media (max-width: 750px) {
+    .optimization_img {
+        margin-left: -60px;
     }
-    @media (max-width: 700px) {
-        .optimization_img {
-            display: none;
-           
-        }
-        .optimization_text {
-            padding: 20px;
-            width: 100%;
-            margin-left: 10px;
-            text-align: center;
-        }
-        .optimization_title {
-            padding: 20px;
-            margin-left: 10px;
-            text-align: center;
-        }
+}
+@media (max-width: 700px) {
+    .optimization_img {
+        display: none;
         
-        .content_wrap {
-            display: flex;
-            flex-direction: column; 
-            align-items: center;
-        }
-        .content_item {
-            width: 339px;
-            text-align: center;
-            vertical-align: top;
-            margin-top: 30px;
-        }
-        .finish_wrap {
-            margin-top: 40px;
-            flex-direction: column; 
-            align-items: center;
-        }
-        .finish_item {
-            margin-top: 30px;
-        }
     }
+    .optimization_text {
+        padding: 20px;
+        width: 100%;
+        margin-left: 10px;
+        text-align: center;
+    }
+    .optimization_title {
+        padding: 20px;
+        margin-left: 10px;
+        text-align: center;
+    }
+    
+    .content_wrap {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .content_item {
+        width: 339px;
+        text-align: center;
+        vertical-align: top;
+        margin-top: 30px;
+    }
+    .finish_wrap {
+        margin-top: 40px;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .finish_item {
+        margin-top: 30px;
+    }
+}
