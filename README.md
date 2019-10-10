@@ -1,7 +1,7 @@
 # oksanakich.github.io
 Portfolio Studying Projects
 
-[Webinar - simple page not complete responsive](https://oksanakich.github.io/wordpress/)
+[Webinar - simgle page](https://oksanakich.github.io/wordpress/)
 
 [inWeb 3-pages website](https://oksanakich.github.io/inweb/)
 
