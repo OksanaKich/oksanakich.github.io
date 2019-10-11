@@ -1,6 +1,6 @@
 # oksanakich.github.io
 
-Portfolio Studying Projects
+Studying Projects
 
 [Uber - using Bootstrap](https://oksanakich.github.io/uber/)
 
