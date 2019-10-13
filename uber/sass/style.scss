@@ -257,3 +257,56 @@ nav {
 		}
 	}
 }
+
+
+.require {
+	padding: 64px 0 84px 0;
+	&_block {
+		margin: 33px 0;
+		&_nmb {
+			margin-bottom: 0;
+		}
+	}
+	&_title {
+		color: $main-color;
+		font-size: 22px;
+		font-weight: 500;
+	}
+	&_list {
+		list-style-type: none;
+		padding-left: 50px;
+		margin-top: 22px;
+		li {
+			position: relative;
+			font-size: 17px;
+			font-weight: 300;
+			line-height: 24px;
+			margin-bottom: 10px;
+			&:before {
+				content: '';
+				background: url(../icons/check_blue.svg) center center/cover no-repeat;
+				display: block;
+				width: 21px;
+				height: 20px;
+
+				position: absolute;
+				left: -32px;
+				top: 2px;
+				
+			}
+		}
+	}
+	.warning {
+		.require_title {
+			color: $second-color;
+		}
+		.require_list {
+			li {
+				&:before {
+					background: url(../icons/check_red.svg) center center/cover no-repeat;
+				}
+			}
+		}
+	}
+}
+

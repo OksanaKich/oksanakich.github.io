@@ -311,4 +311,55 @@ nav {
   border-radius: 100%;
   cursor: pointer;
 }
+
+.require {
+  padding: 64px 0 84px 0;
+}
+
+.require_block {
+  margin: 33px 0;
+}
+
+.require_block_nmb {
+  margin-bottom: 0;
+}
+
+.require_title {
+  color: #1eacc7;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.require_list {
+  list-style-type: none;
+  padding-left: 50px;
+  margin-top: 22px;
+}
+
+.require_list li {
+  position: relative;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.require_list li:before {
+  content: '';
+  background: url(../icons/check_blue.svg) center center/cover no-repeat;
+  display: block;
+  width: 21px;
+  height: 20px;
+  position: absolute;
+  left: -32px;
+  top: 2px;
+}
+
+.require .warning .require_title {
+  color: #ff5656;
+}
+
+.require .warning .require_list li:before {
+  background: url(../icons/check_red.svg) center center/cover no-repeat;
+}
 /*# sourceMappingURL=style.css.map */
