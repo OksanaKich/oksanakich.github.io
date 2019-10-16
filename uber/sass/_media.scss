@@ -238,6 +238,10 @@
     }
     .promo {
         min-height: 400px;
+        padding-top: 170px;
+        &_btn {
+            margin-top: 10px;
+        }
     }
     .title {
         font-size: 28px;
