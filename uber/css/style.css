@@ -772,4 +772,21 @@ footer a:hover {
     margin-right: 15px;
   }
 }
+
+@media (max-width: 420px) {
+  .subheader_btn {
+    margin-left: 1px;
+    margin-right: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .subheader_phone {
+    font-size: 16px;
+  }
+  .subheader_btn {
+    margin-left: -36px;
+    margin-right: 35px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
