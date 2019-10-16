@@ -130,7 +130,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 50%;
+        width: 85%;
         height: 100vh;
         background-color: rgba(0, 0, 0, .8);
         transition: 0.6s all;
@@ -209,7 +209,17 @@
     .promo {
         min-height: 400px;
     }
+    .reasons {
+        padding: 22px 0 36px 0;
+    }
+    .title {
+        font-size: 28px;
+    }
+    .footer_divider {
+        width: 276px;
+    }
 }
+
 @media (max-width: 420px) {
     .subheader {
         &_btn {
