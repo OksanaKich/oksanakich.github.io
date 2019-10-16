@@ -226,3 +226,14 @@
         }
     }
 }
+@media (max-width: 330px) {
+    .subheader {
+        &_phone {
+          font-size: 14px; 
+        }
+        &_btn {
+            margin-left: -40px;
+            margin-right: 35px;
+        }
+    }
+}
