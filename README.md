@@ -6,9 +6,9 @@ Studying Projects
 
 [Bootstrap practice](https://oksanakich.github.io/bootstrap/)
 
-[Webinar - simgle page](https://oksanakich.github.io/wordpress/)
+[Webinar - promotion simgle page](https://oksanakich.github.io/wordpress/)
 
-[inWeb 3-pages website](https://oksanakich.github.io/inweb/)
+[inWeb 3-pages personal website](https://oksanakich.github.io/inweb/)
 
 [Bukee - Book Author One Page](https://oksanakich.github.io/Bukee/)
 
