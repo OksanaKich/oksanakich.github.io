@@ -555,6 +555,12 @@ footer a:hover {
   display: none;
 }
 
+@media (max-width: 1500px) {
+  .promo {
+    padding: 220px 0;
+  }
+}
+
 @media (max-width: 1200px) {
   .menu_item {
     padding-right: 20px;
