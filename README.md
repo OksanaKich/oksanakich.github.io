@@ -2,6 +2,9 @@
 
 Studying Projects
 
+
+[Pulsometer - sales page](https://oksanakich.github.io/pulsometer/src/)
+
 [Uber Partners](https://oksanakich.github.io/uber/)
 
 [Bootstrap practice](https://oksanakich.github.io/bootstrap/)
