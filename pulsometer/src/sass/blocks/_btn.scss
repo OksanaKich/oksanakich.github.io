@@ -2,14 +2,13 @@
     width: 150px;
     height: 40px;
     border-radius: 5px;
-    background: linear-gradient(to top left, #870000, #93291E);
+    background: $main-color; /* linear-gradient(to top left, #870000, #93291E); */
     border: none;
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
     color: #fff;
     border: 1.5px solid rgba(34, 33, 30, 0.048);
-    /* box-shadow: 2px 2px  */20px #3f3f3f56;
     cursor: pointer;
     &:hover {
         background: linear-gradient(to top left, #a73737, #7a2828);

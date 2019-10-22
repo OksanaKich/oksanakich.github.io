@@ -1,0 +1,67 @@
+@media (max-width: 900px){
+    .header {
+        &__official {
+            display: none;
+        }
+    }
+    .promo {
+        &__header {
+            text-align: center;
+            margin: 0 auto; 
+        }
+        &__subheader {
+            text-align: center;
+            margin: 0 auto;
+        }
+        &__icons {
+            margin: 0 auto; 
+        }
+        &__link {
+            margin: 0 auto;   
+        }
+    }
+    .btn_main {
+        margin: 0 auto;
+    }
+    .advantages {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .consultation {
+        text-align: center;
+    }
+
+    .feed-form {
+        margin: 0 auto;
+    }
+    .catalog {
+        &__tabs {
+            flex-direction: column;
+        }
+        &-item {
+            margin: 0 auto; 
+        }
+    }
+    .feed {
+        &__item {
+            flex-direction: column;
+            img {
+                margin: 0 auto;
+            }
+        }
+        &__subtitle {
+            padding-top: 20px;
+            text-align: center;
+        }
+        &__count {
+            text-align: center;
+        }
+    }
+    .title {
+        &_left {
+            text-align: center;
+        }
+    }
+}

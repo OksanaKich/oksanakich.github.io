@@ -8,10 +8,10 @@
         }
     }
     &__img {
+        display: block;
         width: 169px;
         height: 241px;
-        box-shadow: 3px 3px 20px #5c5c5c;
-        vertical-align: initial;
+        box-shadow: 3px 3px 15px #5c5c5c;
     }
     &__text {
         margin-left: 62px;
