@@ -65,3 +65,11 @@
         }
     }
 }
+@media (max-width: 500px) {
+    .modal {
+        width: 300px;
+        .feed-form {
+            width: 100%;
+        }
+    }
+}
