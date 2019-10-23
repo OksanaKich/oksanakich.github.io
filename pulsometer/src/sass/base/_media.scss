@@ -28,6 +28,11 @@
             flex-direction: column;
             align-items: center;
         }
+        &__item{
+            &:nth-child(2){
+                margin-top: 20px;
+            }
+        }
     }
     .consultation {
         text-align: center;
