@@ -75,4 +75,21 @@ $(document).ready(function(){
   $('#order').validate();//chrome вже має вбудоване правило, котре при прописуванні в html require, викликає сповіщення "Заповніть це поле"Можеш потім доробити */
 
   $('input[name=phone]').mask("+38 (999) 999-9999");
+
+  //Smooth scroll and page up
+
+  $(window).scroll(function(){
+    if($(this).scrollTop()>1600) {
+      $('.page-up').fadeIn();
+    } else {
+      $('.page-up').fadeOut();
+    }
+  });
+
+  $("a[href^='#']").click(function(){
+    const _href = $(this).attr("href");
+    $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+    return false;
+  });
+
 });
