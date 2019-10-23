@@ -93,9 +93,9 @@
                     Просто заповніть форму <br> 
                     й ми передзвонимо Вам протягом 10 хвилин
             </div>
-            <form class="feed-form" action="#">
+            <form class="feed-form" id="consult-form" action="#">
                 <input name="name" required placeholder="Ваше ім'я" type="text">
-                <input name="form" required placeholder="Ваш телефон" type="number">
+                <input name="phone" required placeholder="Ваш телефон">
                 <input name="email" required placeholder="Ваш e-mail" type="email">
                 <button class="btn btn_submit ">замовити консультацію</button>
             </form>
@@ -425,8 +425,8 @@
             <div class="modal__subtitle">Просто заповніть форму заявки</div>
             <div class="modal__descr">й ми передзвонимо Вам протягом 10 хвилин</div>
             <form class="feed-form feed-form_mt25" action="#">
-                <input name="name" required placeholder="Ваше ім'я" type="text">
-                <input name="form" required placeholder="Ваш телефон" type="number">
+                <input name="name" required minlength="3" placeholder="Ваше ім'я" type="text">
+                <input name="phone" required placeholder="Ваш телефон">
                 <input name="email" required placeholder="Ваш e-mail" type="email">
                 <button class="btn btn_submit ">замовити консультацію</button>
             </form>
@@ -438,7 +438,7 @@
             <div class="modal__descr">Пульсометр Polar FT1</div>
             <form class="feed-form feed-form_mt25" action="#">
                 <input name="name" required placeholder="Ваше ім'я" type="text">
-                <input name="form" required placeholder="Ваш телефон" type="number">
+                <input name="phone" required placeholder="Ваш телефон">
                 <input name="email" required placeholder="Ваш e-mail" type="email">
                 <button class="btn btn_submit ">купити</button>
             </form>
@@ -454,8 +454,10 @@
 
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 </html>

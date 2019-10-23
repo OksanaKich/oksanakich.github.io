@@ -69,4 +69,10 @@ $(document).ready(function(){
       $('.overlay, #order').fadeIn('slow');
     }) 
   });
+
+ /*  $('#consult-form').validate();
+  $('#consult').validate();
+  $('#order').validate();//chrome вже має вбудоване правило, котре при прописуванні в html require, викликає сповіщення "Заповніть це поле"Можеш потім доробити */
+
+  $('input[name=phone]').mask("+38 (999) 999-9999");
 });
