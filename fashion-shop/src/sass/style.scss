@@ -6,10 +6,6 @@
 @import "base/mixins";
 @import "base/core";
 
-h1 {
-    color: $black;
-}
-p {
-    font-size: 60px;
-    color: blue;
-}
+@import "blocks/top";
+@import "blocks/menu";
+@import "blocks/icons";
