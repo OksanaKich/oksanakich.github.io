@@ -3,6 +3,8 @@
 Studying Projects
 
 
+[fashion-shop](oksanakich.github.io/fashion-shop/src/)
+
 [Pulsometer - sales page](https://oksanakich.github.io/pulsometer/src/)
 
 [Uber Partners](https://oksanakich.github.io/uber/)
