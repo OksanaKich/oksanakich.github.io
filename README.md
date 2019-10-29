@@ -1,6 +1,6 @@
 # oksanakich.github.io
 
-Studying Projects
+Portfolio Studying Projects
 
 
 [fashion-shop](https://oksanakich.github.io/fashion-shop/src/)
