@@ -10,6 +10,7 @@
   display: none;
   width: 100%;
   max-width: 1920px;
+  margin: 0 auto;
   -webkit-tap-highlight-color: transparent;
   /* position relative and z-index fix webkit rendering fonts issue */
   position: relative;
