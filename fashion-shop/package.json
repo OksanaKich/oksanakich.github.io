@@ -26,5 +26,8 @@
   "repository": {
     "type": "git",
     "url": ""
+  },
+  "dependencies": {
+    "owl.carousel": "^2.3.4"
   }
 }
