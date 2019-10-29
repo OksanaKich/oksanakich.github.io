@@ -70,7 +70,7 @@
     padding: 0 !important;
     font: inherit; }
   .owl-carousel.owl-loaded {
-    display: block; }
+    display: flex; }
   .owl-carousel.owl-loading {
     opacity: 0;
     display: block; }
