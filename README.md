@@ -2,7 +2,7 @@
 
 Portfolio Studying Projects
 
-[I had studied made these pages in different tutorials, thank the authors.]
+[I had studied to make these pages from different tutorials, thank the authors.]
 
 
 [fashion-shop](https://oksanakich.github.io/fashion-shop/src/)
