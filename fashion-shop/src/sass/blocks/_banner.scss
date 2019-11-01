@@ -36,6 +36,22 @@
         };
     }
 }
+.banner--left {
+    background: url(../img/banner2.jpg) left center no-repeat #d7dbd5;
+    background-size: cover;
+    justify-content: flex-start;
+    .banner__information {
+        margin-right: 0;
+        margin-left: 70px;
+    }
+    a {
+        $values: (bg: $black, fs: 15px, lh: 23px, ls: 0.7px, w: 205px, br: 70px, clr: $white);
+        @include btn($values...){
+            padding: 20px 0;
+            margin: 35px auto 25px;
+        };
+    }
+}
 @media (max-width: 1150px) {
     .banner {
         background-position: -150px 0;
