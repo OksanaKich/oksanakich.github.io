@@ -47,7 +47,7 @@
     a {
         $values: (bg: $black, fs: 15px, lh: 23px, ls: 0.7px, w: 205px, br: 70px, clr: $white);
         @include btn($values...){
-            padding: 20px 0;
+            padding: 24px 0;
             margin: 35px auto 25px;
         };
     }
@@ -59,6 +59,11 @@
             margin-right: 0;
         }
     }
+    .banner--left {
+        .banner__information {
+            margin-left: 0;
+        }
+    }
 }
 @media (max-width: 920px) {
     .banner {
@@ -68,5 +73,8 @@
             padding: 0 10px;
             box-sizing: border-box;
         }
+    }
+    .banner--left {
+        background: #d7dbd5;
     }
 }
