@@ -4,6 +4,8 @@ Portfolio Studying Projects
 
 [Some of these pages were made by video tutorials, thank the authors.]
 
+[Bino](https://oksanakich.github.io/bino-landing/)
+
 [bino-landing](https://oksanakich.github.io/bino-landing/)
 
 [fashion-shop](https://oksanakich.github.io/fashion-shop/src/)
