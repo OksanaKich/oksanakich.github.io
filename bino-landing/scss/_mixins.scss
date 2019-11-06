@@ -32,8 +32,8 @@
   @content;
 
   &:hover {
-    background-color: darken($bg, 10%);
-    border-color: darken($bg, 10%);
+    background-color: darken($red, 10%);
+    border-color: darken($red, 10%);
   }
   @if $two-button ==true {
     &:first-child {
