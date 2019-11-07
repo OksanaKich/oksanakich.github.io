@@ -4,6 +4,7 @@ Portfolio Studying Projects
 
 [Some of these pages were made by video tutorials, thank the authors.]
 
+[exe](https://oksanakich.github.io/exe/)
 
 [bino-landing](https://oksanakich.github.io/bino-landing/)
 
