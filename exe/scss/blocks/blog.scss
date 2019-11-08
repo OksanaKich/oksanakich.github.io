@@ -1,0 +1,26 @@
+.blog__title {
+    @include visually-hidden();
+}
+.blog__list {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, minmax(130, auto));
+    list-style: none;
+    padding-top: 115px;
+    padding-bottom: 150px;
+}
+.blog__element--tree {
+    grid-column: span 3;
+}
+
+.blog__element--four {
+    grid-column: span 4;
+}
+
+.blog__element--five {
+    grid-column: span 5;
+}
+
+.blog__element--eight {
+    grid-column: span 8;
+}
