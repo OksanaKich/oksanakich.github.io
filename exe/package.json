@@ -25,5 +25,8 @@
     "imagemin-jpeg-recompress": "^5.1.0",
     "imagemin-pngquant": "^5.1.0",
     "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "owl.carousel": "^2.3.4"
   }
 }
