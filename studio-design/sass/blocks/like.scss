@@ -1,0 +1,30 @@
+.projects__like {
+    max-width: 145px;
+    text-align: center;
+}
+.like__btn {
+    background: none;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 0;
+    svg {
+        width: 24px;
+        height: 22px;
+        transition-property: fill;
+        transition-duration: 500ms;
+
+        &:hover {
+            fill: $red;
+        }
+    }
+}
+.like__counts {
+    font-size: 11px;
+    font-family: 'roboto_condensedlight';
+    line-height: 1;
+    text-transform: uppercase;
+    color: $red;
+    display: block;
+    margin: 5px 0 0 0;
+}
