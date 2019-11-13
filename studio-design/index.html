@@ -460,7 +460,7 @@
             <img class="news__img" src="img/news1.jpg" alt="news photo" srcset="img/news1.jpg 1x, img/news1-2x.jpg 2x">
           </picture>
           <p class="news__descr">Maecenas imperdiet nisi lorem, sed fermentum tortor pretium eget. Sed mollis lacus quis nunc cursus cursus. Quisque et magna sit amet sapien fermentum scelerisque eu id massa. Mauris ornare massa vel mauris tempus, vitae tempus urna tincidunt. </p>
-          <p class="news__href"><a href="" class="news__link">read more</a></p>
+          <p class="news__href"><a href="#" class="news__link">read more</a></p>
         </li>
 
         <li class="news__element">
@@ -471,16 +471,267 @@
             <img class="news__img" src="img/news2.jpg" alt="news photo" srcset="img/news2.jpg 1x, img/news2-2x.jpg 2x">
           </picture>
           <p class="news__descr">Praesent non mauris nec orci scelerisque faucibus. Nulla ac varius est. Aenean auctor nisl elit, nec sollicitudin lectus iaculis sed. Maecenas aliquam ligula vitae pharetra scelerisque.</p>
-          <p class="news__href"><a href="" class="news__link">read more</a></p>
+          <p class="news__href"><a href="#" class="news__link">read more</a></p>
         </li>
       </ul>
     </div>
+
   </section>
+
+  <footer class="footer">
+    <div class="footer__map" id="map">
+
+    </div>
+
+    <div class="footer__info">
+      <div class="footer__left">
+        <p class="footer__address">90802 California<br>Long beach<br>PO Box 68789<br>300 East Ocean<br>Boulevard</p> 
+        <p class="footer__contacts">
+          <a class="footer__tel" href="tel:+6493456758">+64 9 345 6758</a><br>
+          <a class="footer__mail" href="mailto:info@dsgn-studio.com">info@dsgn-studio.com</a>
+        </p>
+      </div>
+      <div class="footer__right">
+          <img class="footer__logo" src="img/logo.png" alt="logo" srcset="img/logo.png 1x, img/logo-2x.png 2x">
+          <p class="footer__slogan">ASSOCIATES<br>STUDIO<br>DESIGN</p>
+          <ul class="footer__socials socials">
+            <li class="socials__element">
+              <a class="socials__link" aria-label="Facebook" href="#">
+                <svg class="socials__facebook" >
+                  <use xlink:href="img/symbol/sprite.svg#fb"></use>
+                </svg>
+              </a>
+            </li>
+    
+            <li class="socials__element">
+              <a class="socials__link" aria-label="Twitter" href="#">
+                <svg class="socials__twitter" >
+                  <use xlink:href="img/symbol/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+    
+            <li class="socials__element">
+              <a class="socials__link" aria-label="Linkedin" href="#">
+                <svg class="socials__linkedin" >
+                  <use xlink:href="img/symbol/sprite.svg#linked"></use>
+                </svg>
+              </a>
+            </li>
+    
+            <li class="socials__element">
+              <a class="socials__link" aria-label="Google plus" href="#">
+                <svg class="socials__google" >
+                  <use xlink:href="img/symbol/sprite.svg#google"></use>
+                </svg>
+              </a>
+            </li>
+    
+          </ul>
+         
+      </div>
+      <p class="footer__copy">&copy; 2014  DSGN. All rights reserved - Designed by theuncreativelab.com</p>
+    </div>
+  </footer>
 
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="js/all.min.js"></script>
+<script>
+    var design = [
+    {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#e9e9e9"
+            },
+            {
+                "lightness": 17
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#f5f5f5"
+            },
+            {
+                "lightness": 20
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 17
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 29
+            },
+            {
+                "weight": 0.2
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 18
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 16
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#f5f5f5"
+            },
+            {
+                "lightness": 21
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#dedede"
+            },
+            {
+                "lightness": 21
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#ffffff"
+            },
+            {
+                "lightness": 16
+            }
+        ]
+    },
+    {
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "saturation": 36
+            },
+            {
+                "color": "#333333"
+            },
+            {
+                "lightness": 40
+            }
+        ]
+    },
+    {
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#f2f2f2"
+            },
+            {
+                "lightness": 19
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#fefefe"
+            },
+            {
+                "lightness": 20
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "color": "#fefefe"
+            },
+            {
+                "lightness": 17
+            },
+            {
+                "weight": 1.2
+            }
+        ]
+    }
+]
+    var map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 33.775259, lng: -118.227558},
+        zoom: 9,
+        styles: design
+      });
+        var marker = new google.maps.Marker({
+        position: {lat: 33.775259, lng: -118.227558},
+        map: map,
+        icon: 'img/marker.svg'
+       
+      });
+    }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUbUPdj3i54ij1Nv39vphF0Te0nJPhN40&callback=initMap"></script>
+</script>
 </body>
 </html>
 
