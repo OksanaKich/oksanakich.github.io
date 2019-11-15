@@ -2,7 +2,7 @@
 
 Portfolio Studying Projects
 
-[Some of these pages were made by video tutorials, thank the authors.]
+[Folk - landing page](https://oksanakich.github.io/folk/src/)
 
 [studio-design](https://oksanakich.github.io/studio-design/)
 
@@ -27,3 +27,5 @@ Portfolio Studying Projects
 [Waxom - Landingpage ](https://oksanakich.github.io/Waxom/ "2nd Studying Project")
 
 [Limpon - Landingpage](https://oksanakich.github.io/Limbon/ "1st studying project.Landingpage.")
+
+[Some of these pages were made by video tutorials, thank the authors.]
