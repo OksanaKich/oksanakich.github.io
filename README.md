@@ -4,7 +4,7 @@ Portfolio Studying Projects
 
 [Folk - landing page](https://oksanakich.github.io/folk/src/)
 
-[studio-design](https://oksanakich.github.io/studio-design/)
+[studio-design - grid practice](https://oksanakich.github.io/studio-design/)
 
 [exe](https://oksanakich.github.io/exe/)
 
