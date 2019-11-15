@@ -4,7 +4,6 @@
     display: block;
     cursor: pointer;
     border: none;
-    top: 40px;
     right: 6px;
     transition-property: border-color;
     transition-duration: 500ms;
@@ -31,5 +30,5 @@
     }
 }
 .hamburger--active {
-    z-index: 1;
+    z-index: 2;
 }
