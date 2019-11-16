@@ -10,6 +10,11 @@
     height: 60px;
     right: 6px;
     top: 4px;
+    &:hover {
+        .hamburger__element {
+            background-color: $hover;
+        }
+    }
 }
 
 
@@ -19,24 +24,29 @@
     background-color: $mainColor;
     display: block;
     margin:  10px  auto;
-   }
+    margin-right: 6px;
+}
 
 .hamburger--active {
     position: absolute;
     z-index: 1;
     .hamburger__element {
         margin: -4px auto;
+        background-color: #ccc;
         &:nth-child(1) {
-            transform: translateX(5px);
             transform: rotate(45deg);
-            
-          
         }
         &:nth-child(2) {
             transform: rotate(-45deg);
         }
         &:nth-child(3) {
             display: none;
+        }
+       
+    }
+    &:hover {
+        .hamburger__element {
+            background-color: #898a8b;
         }
     }
 }
