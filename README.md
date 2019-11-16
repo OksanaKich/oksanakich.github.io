@@ -1,8 +1,11 @@
 # oksanakich.github.io
 
+Practice in solution for:
 [simple hamburger menu responsive](https://oksanakich.github.io/hamburger/src/)
 
-Portfolio Studying Projects
+
+
+Portfolio Studying Projects:
 
 [Folk - landing](https://oksanakich.github.io/folk/src/)
 
