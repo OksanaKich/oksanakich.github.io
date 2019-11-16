@@ -1,46 +1,28 @@
 .menu {
     position: relative;
-    display: flex;
+    width: 900px;
+    
 }
+
 .menu__list {
-    background-color: $bgDarken;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    padding-top: 20px;
     display: flex;
-    text-align: center;
-    min-width: 725px;
-    padding-right: 119px;
-    padding-left: 25px;
-    box-sizing: border-box;
-    z-index: 9999;
+    justify-content: space-between;
+    list-style: none;
     display: none;
+   
+}
+.menu__element {
+    &:last-child {
+        margin-right: 200px;
+    }
+}
+.menu__link {
+    text-decoration: none;
+    color: $mainColor;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .menu__list--active {
-    display: flex;
-    z-index:  1;
-    animation-duration: 500ms;
-    animation-name: menu;
-    margin-right: 6px;
-}
-
-.menu__link {
-    font-size: 16px;
-    text-decoration: none;
-    padding: 30px;
-    color: $white;
-    text-transform: uppercase;
-    transition-duration: 500ms;
-    transition-property: color;
-}
-
-@keyframes menu {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  display: flex;
 }
