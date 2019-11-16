@@ -1,12 +1,12 @@
 .menu {
     position: relative;
     width: 900px;
+    
 }
 
 .menu__list {
     list-style: none;
     display: none;
-    margin-top: 15px;
 }
 .menu__element {
     padding: 10px;
@@ -35,6 +35,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 15px;
+  
 
 }
 
@@ -44,7 +50,9 @@
         justify-content: space-around;
         align-items: center;
         width: 80%;
-        height: 100vw;
+        min-height: 800px;
+        background: rgba(28, 37, 55, 0.931);
+        margin-top: 0;
             
         .menu__element {
             margin-top: 25px;
@@ -60,6 +68,9 @@
                 background: #ccc;
             }
           
+        }
+        .menu__link {
+            color: $white;
         }
     }
    

@@ -1,0 +1,59 @@
+
+.banner {
+    background: url(../img/bg.png)  center center no-repeat;
+    background-position-y: -120px;
+    background-size: cover;
+    padding: 250px 0;
+    /* height: 950px;
+    z-index: 0; */
+    position: relative;
+/*     &::after {
+        content: "";
+        background: #14273593;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        bottom: 0;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+    } */
+}
+
+
+.banner__info {
+    background-color: rgba(28, 37, 55, 0.8);
+    padding-bottom: 75px;
+    z-index: 2;
+}
+.banner__title {
+    font-size: 50px;
+    font-family: 'vivaldi';
+    text-align: center;
+    color: $white;
+    padding-top: 60px;
+}
+.banner__divider {
+    @include divider($line: $white);
+}
+.banner__descr {
+    display: block;
+    max-width: 720px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    color: $white;
+}
+.banner__btn {
+    @include btn($bg: transparent) {
+        border: 1px solid $white;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        
+    }
+}

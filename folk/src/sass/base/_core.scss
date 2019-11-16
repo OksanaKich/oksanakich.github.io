@@ -10,13 +10,14 @@ html {
 }
 
 body {
-	font-family: 'roboto_condensedregular', 'Arial', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	overflow-wrap: break-word;
 	word-wrap: break-word;
 }
 
 .container {
 	@include min-max(320px, 100%, 0);
+	z-index: -5;
 	}
 
 .wrap {
