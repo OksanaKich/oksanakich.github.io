@@ -1,7 +1,6 @@
 
 .banner {
     background: url(../img/bg.png)  center center no-repeat;
-    /* background-position-y: -120px; */
     background-size: cover;
     position: relative;
     padding-top: 250px;
@@ -58,5 +57,30 @@
         font-size: 18px;
         font-weight: 400;
         
+    }
+}
+@media (max-width: 980px) {
+  .banner {
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+}
+@media (max-width: 768px) {
+    .banner {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+}
+@media (max-width: 480px) {
+    .banner {
+      padding-top: 50px;
+      padding-bottom: 80px;
+    }
+    .banner__info {
+        padding-bottom: 35px;
+    }
+    .banner__title {
+    
+        padding-top: 30px;
     }
 }
