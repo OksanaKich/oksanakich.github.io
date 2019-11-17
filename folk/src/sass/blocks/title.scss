@@ -1,0 +1,18 @@
+.subtitle {
+    font-size: 20px;
+    color: $textColor;
+    text-align: center;
+}
+.title {
+    font-size: 28px;
+    text-align: center;
+    color: $primary;
+}
+.descr {
+    font-size: 14px;
+    color: $textColor;
+    text-align: center;
+    max-width: 860px;
+    display: block;
+    margin: 0 auto;
+}
