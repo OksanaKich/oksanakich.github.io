@@ -1,12 +1,14 @@
 .menu {
     position: relative;
     width: 900px;
+   
     
 }
 
 .menu__list {
     list-style: none;
     display: none;
+    padding-top: 20px;
 }
 .menu__element {
     padding: 10px;
@@ -49,10 +51,13 @@
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        width: 80%;
-        min-height: 800px;
+        width: 100vw;
+        height: 100vh;
         background: rgba(28, 37, 55, 0.931);
+        z-index: 3;
         margin-top: 0;
+       
+     
             
         .menu__element {
             margin-top: 25px;

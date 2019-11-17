@@ -1,0 +1,29 @@
+.divider {
+    @include divider();
+}
+
+@media (max-width: 768px) {
+    
+    .divider {
+        width: 7px;
+        
+        p { 
+            &::after {
+            width: 7px;
+            height: 7px;
+            }
+        }
+        
+        &::after, &::before {
+            width: 80px;
+            height: 1px;
+        }
+        
+        &::before {
+            left: -90px;
+        }
+        &::after {
+            right: -90px;
+        }
+    }
+}

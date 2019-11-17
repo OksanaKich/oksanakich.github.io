@@ -8,8 +8,9 @@
     position: absolute;
     width: 50px;
     height: 40px;
-    right: 6px;
-    top: 4px;
+    right: 10px;
+    top: 30px;
+    
     &:hover {
         .hamburger__element {
             background-color: $hover;
@@ -48,5 +49,10 @@
         .hamburger__element {
             background-color: #898a8b;
         }
+    }
+}
+@media (max-width: 768px) {
+    .hamburger--active {
+        z-index: 4;
     }
 }
