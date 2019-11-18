@@ -50,8 +50,6 @@
     flex-basis: 45%;
 }
 
-
-
 .design__img {
     width: 100%;
 }
@@ -72,6 +70,7 @@
     padding: 0;
     line-height: 2;
     margin-bottom: 40px;
+    margin-left: 0;
 }
 .design__btn {
     @include btn(transparent) {
@@ -125,9 +124,11 @@
         z-index: 2;
         font-size: 20px;
         text-align: center;
+        margin-bottom: 15px;
         .small {
             font-size: 14px;
             text-align: center;
+            display: block;
         }
     }
 }
@@ -145,6 +146,78 @@
         top: 50%;
         left: 50%;
         width: 100%;
-        transform: translate(-14%,-4%);
+        transform: translate(-14%,-32%);
+        height: 20px;
+    }
+}
+
+
+@media (max-width: 980px) {
+    .portfolio {
+        padding: 60px 0;
+    }
+    .portfolio__list {
+        margin: 10px auto;
+        flex-wrap: wrap;
+        padding-left: 0;
+        justify-content: center;
+        li {
+            margin: 10px 0;
+            &:first-child {
+                padding-left: 30px;
+            }
+            &:last-child {
+                padding-right: 30px;
+            }
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+    .design__element {
+        flex-basis: 100%;
+    }
+    .design__subtitle, .design__title, .design__btn, .design__descr {
+        margin-left: 35px;
+    }
+    .portfolio__element {
+        p {
+            text-align: center;
+            font-size: 16px;
+            .small {
+                font-size: 10px;
+                margin-top: 5px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio__element {
+        flex-basis: 50%;
+        p {
+            text-align: center;
+            .small {
+                font-size: 12px;
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .portfolio{
+        padding: 30px 0 10px;
+    }
+    .portfolio__element {
+        flex-basis: 100%;
+        img {
+            width: 100%;
+        }
+        p {
+            text-align: center;
+            font-size: 18px;
+            .small {
+                font-size: 12px;
+            }
+        }
     }
 }
