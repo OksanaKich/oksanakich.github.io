@@ -1,0 +1,144 @@
+.statistic {
+    background: $primary;
+    padding: 90px 0;
+}
+.statistic__block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.statistic__item {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.statistic__icon {
+    width: 100px;
+    height: 100px;
+    img {
+        width: 100%;
+    }
+}
+
+.statistic__counter {
+    margin-left: 40px;
+    p {
+        font-size: 55px;
+        color: $white;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    span {
+        font-size: 20px;
+        color: $white;
+        display: block;
+    }
+}
+
+@media (max-width: 1500px) {
+    .statistic__counter {
+        margin-left: 20px;
+    }
+    .statistic__icon {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .statistic__counter {
+        margin-left: 10px;
+
+        p {
+            font-size: 45px;
+         
+        }
+        span {
+            font-size: 16px;
+          
+        }
+    }
+    .statistic__icon {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 980px) {
+
+    .statistic__block {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .statistic__item {
+        flex-basis: 50%;
+        justify-content: center;
+        &:nth-child(1), &:nth-child(2) {
+            margin-bottom: 30px;
+        }
+        &:nth-child(2), &:nth-child(4) {
+            justify-content: flex-start;
+        }
+    }
+
+    .statistic__counter {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 580px) {
+
+    .statistic__block {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .statistic__item {
+        flex-basis: 100%;
+        justify-content: start;
+        margin-bottom: 40px;
+        margin-left: 30%;
+   
+        &:nth-child(4) {
+            margin-bottom: 0;
+        }
+    }
+  
+}
+
+@media (max-width: 480px) {
+    .statistic {
+        padding: 60px;
+    }
+
+    .statistic__item {
+       
+        margin-left: 20%;
+    }
+}
+@media (max-width: 380px) {
+
+    .statistic__item {
+       
+        margin-left: 10%;
+    }
+    .statistic__counter {
+       
+
+        p {
+            font-size: 35px;
+         
+        }
+    }
+}
+@media (max-width: 300px) {
+
+    .statistic__item {
+       
+        margin-left: 5%;
+    }
+}
+
+

@@ -1,0 +1,57 @@
+/* Gradient color1 - color2 - color1 */
+
+.wrap {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    width: 300px;
+    text-align: center;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+hr.type_7 {
+    border: 0;
+    height: 55px;
+    background-image: url(img/type_7.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+hr.type_5 {
+    border: 0;
+    height: 55px;
+    background-image: url(img/type_5.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+hr.type_10 {
+    border: 0;
+    height: 55px;
+    background-image: url(img/type_10.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+hr.type_4 {
+    border: 0;
+    height: 55px;
+    background-image: url(img/type_4.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
+hr.type_1 {
+    border: 0;
+    height: 55px;
+    background-image: url(img/type_1.png);
+    background-repeat: no-repeat;
+    text-align: center;
+}
