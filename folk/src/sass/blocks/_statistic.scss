@@ -33,6 +33,7 @@
         font-size: 20px;
         color: $white;
         display: block;
+        text-transform: uppercase;
     }
 }
 
@@ -125,11 +126,9 @@
         margin-left: 10%;
     }
     .statistic__counter {
-       
 
         p {
             font-size: 35px;
-         
         }
     }
 }
