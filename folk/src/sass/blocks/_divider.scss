@@ -4,6 +4,9 @@
 .banner__divider {
     @include divider($line: $white);
 }
+.customers__divider {
+    @include divider($line: $white);
+}
 
 @media (max-width: 768px) {
     
