@@ -122,6 +122,20 @@
 
 }
 
+@media (max-width: 480px)  {
+
+    .header__quote  {
+       
+        p {
+            margin-bottom: 20px;
+        }
+        span {
+            display: 16px;
+        }
+    }
+
+}
+
 @media (max-width: 340px) {
     .header__wrap {
         min-width: 0;
