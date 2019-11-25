@@ -10,28 +10,32 @@
 </head>
 <body> 
     <section class="header">
-        <nav class="wrap header__nav">
+        <nav class="wrap header__wrap">
             <div class="header__logo">
-                <a href="">
-                    <svg class="skill__img">
-                        <use xlink:href="img/symbol/sprite.svg#lotus">
-                    </svg>
-                </a>
-                <p class="logo__name">Медитація</p>
-
+                <div>
+                    <img class="logo__img" src="img/lotus.png" alt="">
+                </div>
+                <div>
+                    <p class="logo__name">Медитація</p>
+                </div>
             </div>
-            <div>
-                <ul class="header__menu">
-                    <li><a href="">Практика</a></li>
-                    <li><a href="">Я є</a></li>
-                    <li><a href="">Хто я</a></li>
+            <div class="header__nav  menu">
+                <ul class="header__menu menu__list">
+                    <li class="menu__element"><a class="menu__link" href="">Практика</a></li>
+                    <li class="menu__element"><a class="menu__link" href="">Я є</a></li>
+                    <li class="menu__element"><a class="menu__link" href="">Хто я</a></li>
                 </ul>
+                <button class="menu__hamburger hamburger" >
+                        <span class="hamburger__element"></span>
+                        <span class="hamburger__element"></span>
+                        <span class="hamburger__element"></span>
+                </button>
             </div>
-
         </nav>
 
         <div class="header__quote">
             <p>	Існує неосяжний простір за межами  досягнень  розуму. Цей простір - це мій дім; цей простір - це я сам. І цей простір - це також любов. </p>
+            <div class="divider"><p></p></div>
             <span>Нісарґадатта</span>
                     
         </div>

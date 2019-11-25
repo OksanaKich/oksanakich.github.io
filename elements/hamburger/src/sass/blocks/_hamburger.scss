@@ -10,6 +10,7 @@
     height: 60px;
     right: 6px;
     top: 4px;
+    display: none;
     &:hover {
         .hamburger__element {
             background-color: $hover;
