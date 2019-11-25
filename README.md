@@ -1,9 +1,7 @@
 # oksanakich.github.io
 
-Solution for:
 
-[simple hamburger menu responsive](https://oksanakich.github.io/hamburger/src/)
-
+[Meditation](https://oksanakich.github.io/meditation/src/)
 
 
 Portfolio Studying Projects:
@@ -35,3 +33,8 @@ Portfolio Studying Projects:
 [Limpon - Landingpage](https://oksanakich.github.io/Limbon/ "1st studying project.Landingpage.")
 
 [Some of these pages were made by video tutorials, thank the authors.]
+
+
+Solution for:
+
+[simple hamburger menu responsive](https://oksanakich.github.io/hamburger/src/)
