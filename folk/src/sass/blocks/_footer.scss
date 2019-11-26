@@ -1,0 +1,21 @@
+.footer {
+    background: #181A26;
+    padding: 48px 0;
+    p {
+        color:#737373;
+        font-size: 15px;
+        text-align: left;
+    }
+}
+.footer__wrap {
+    max-width: 1694px;
+}
+@media (max-width: 480px) {
+    .footer {
+        padding: 20px 0;
+        p {
+            font-size: 13px;
+            font-weight: 300;
+        }
+    }
+}
