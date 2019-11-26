@@ -9,7 +9,7 @@ $(document).ready(function(){
   $('.customers__slider').slick({
     dots: false,
     infinite: true,
-    speed: 300,
+    speed: 100,
     slidesToShow: 7,
     slidesToScroll: 7,
     responsive: [

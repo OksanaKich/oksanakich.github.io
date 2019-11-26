@@ -1,0 +1,69 @@
+.form {
+    width: 77%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.form__element {
+    padding-bottom: 15px;
+    width: 100%;
+    position: relative;
+    input, textarea {
+        width: 100%;
+    }
+}
+
+
+input {
+    padding: 20px 30px 20px 0;
+    box-sizing: border-box;
+}
+textarea {
+    box-sizing: border-box;
+}
+label {
+    font-size: 20px;
+    color: #a5a5a5;
+    width: 100%;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    pointer-events: none;
+   
+}
+
+.form__btn {
+    @include btn($bg: $primary) {
+        border: 1px solid $primary;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        width: 134px;
+        height: 46px;
+        margin-left: 0;
+        padding: 15px 0;
+        
+    }
+}
+
+
+@media (max-width: 480px) {
+    .form {
+        width: 85%;
+        margin-right: 0px;
+        margin-left: 10px;
+    
+    }
+    .form__element {
+        box-sizing: border-box;
+    }
+    label {
+        font-size: 16px;
+    }
+}
