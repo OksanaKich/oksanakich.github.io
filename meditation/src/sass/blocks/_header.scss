@@ -18,6 +18,10 @@
 .header__wrap {
     display: flex;
     justify-content: space-between;
+    z-index: 3;
+}
+.header__element {
+
 }
 .header__nav {
     padding-top: 0;
@@ -25,6 +29,7 @@
     justify-content: space-between;
     align-items: center;
     z-index: 2;
+    order: 3;
 
 }
 .header__logo {
@@ -46,7 +51,7 @@
     font-size: 20px;
     margin-left: 20px;
 }
-.header__menu {
+.header__menu  {
     display: flex;
     justify-content: flex-end;
     li {
@@ -58,17 +63,58 @@
         color: $white;
         font-family: 'Montserrat Alternates', sans-serif;
         font-size: 20px;
+        border-bottom: 1px solid transparent;
+        padding-bottom: 5px;
         &:hover {
-            color: white;
+            border-bottom: 1px solid $logo;
         }
     }
     
+}
+.header__lang {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    a {
+        text-decoration: none;
+        color: $white;
+        border-bottom: 1px solid transperant;
+        display: block;
+        &:active, &:hover {
+            border-bottom: 1px solid #e74c3c;
+            span {
+                color: #e74c3c;
+                
+            }
+        }
+        &:first-child {
+            margin-right:0;
+            padding-right: 0;
+         
+        }
+        &:last-child {
+            margin-left: 5px;
+        }
+        span {
+            font-size: 20px;
+            color: $white;
+        }
+        .lang__divider {
+            margin-left: 5px;
+            border-right: 2px solid $white;
+            line-height: 1;
+            font-size: 14px;
+        }
+    }
 }
 .header__quote  {
     max-width: 900px;
     margin: 250px auto;
     position: relative;
     z-index: 2;
+    padding-right: 0;
+    padding-left: 0;
     p {
         font-size: 30px;
         color: $white;
@@ -92,6 +138,7 @@
         padding: 10px 0 150px 0;
     }
     
+   
     .header__quote  {
       width: 96%;
       padding-left: 2%;
@@ -103,18 +150,31 @@
     }
 }
 @media (max-width: 680px)  {
-    
+    .header__wrap {
+        padding: 0 10px;
+    }
     .header__logo {
+        order: 1;
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        
+        img {
+            width: 60px;
+        }
+    .logo__name {
+        margin-left: 5px;
+    }   
     }
+    .header__lang {
+        order: 2;
+        margin-left: -20px;
+    }
+
 
 
     .header__quote  {
         max-width: 900px;
-        margin: 180px auto 80px;
+        margin: 180px 0 80px;
         p {
             margin-bottom: 30px;
         }
@@ -128,6 +188,7 @@
        
         p {
             margin-bottom: 20px;
+            font-size: 20px;
         }
         span {
             display: 16px;
