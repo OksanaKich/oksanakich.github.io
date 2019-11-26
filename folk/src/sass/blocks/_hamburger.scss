@@ -10,6 +10,7 @@
     height: 40px;
     right: 10px;
     top: 30px;
+    outline: none;
     
     &:hover {
         .hamburger__element {
@@ -31,6 +32,7 @@
 .hamburger--active {
     position: absolute;
     z-index: 1;
+    outline: none;
     .hamburger__element {
         margin: -4px auto;
         background-color: #ccc;
