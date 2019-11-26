@@ -48,7 +48,12 @@ label {
         height: 46px;
         margin-left: 0;
         padding: 15px 0;
-        
+        color: $white;
+        transition-duration: 500ms;
+        transition-property:  background-color, color, border;
+        &:hover {
+            background-color: transparent;
+        }
     }
 }
 
