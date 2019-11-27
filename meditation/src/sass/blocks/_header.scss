@@ -204,12 +204,15 @@
 
 }
 
-@media (max-width: 340px) {
+@media (max-width: 360px) {
     .header__wrap {
         min-width: 0;
     }
     .logo__name {
    
         margin-left: 5px;
+    }
+    .header__lang {
+        right: 55px;
     }
 }
