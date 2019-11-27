@@ -52,19 +52,19 @@
     align-items: center;
     z-index: 2;
     order: 3;
- 
     a {
         text-decoration: none;
         color: $white;
         border-bottom: 1px solid transperant;
         display: block;
-        &:active, &:hover {
+        &:hover {
             border-bottom: 1px solid #e74c3c;
             span {
                 color: #e74c3c;
                 
             }
         }
+       
         &:first-child {
             margin-right:0;
             padding-right: 0;
