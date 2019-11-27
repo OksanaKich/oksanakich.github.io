@@ -1,4 +1,133 @@
+.menu {
+    position: relative;
+    z-index: 3;
+    width: 900px;
+    align-items: center;
+    padding-top: 17px;
+}
+
+.menu__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    .menu__element {
+        transition-duration: 500ms;
+        transition-property: background-color;
+        padding: 0 20px;
+        list-style: none;
+        
+    }
+    .menu__link {
+        text-decoration: none;
+        
+        &:focus {
+            color: $logo;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: $white;
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 20px;
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+        padding-bottom: 5px;
+        font-weight: 300;
+        &:hover {
+            border-bottom: 1px solid $logo;
+        }
+    }
+}
 
 
+
+.menu__element {
+    padding: 10px;
+    transition-duration: 500ms;
+    transition-property: background-color;
+    &:last-child {
+        margin-right: 100px;
+    }
+ 
+ 
+}
+.menu__link {
+    text-decoration: none;
+    color: $white;
+    font-weight: 600;
+    &:focus {
+        color: $white;
+    }
+    &:hover {
+        color: $logo;
+    }
+}
+
+.menu__list--active {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    position: absolute;
+    right: -10px;
+    top: 0;
+   
+
+}
+
+@media (max-width: 768px) {
+    menu {
+        width: 900px;
+    }
+    .menu__list {
+        display: none;
+    }
+    .menu__list--active {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+        background: $logo;;
+        z-index: 3;
+        margin-top: -75px;
+        display: flex;
+       
+     
+            
+        .menu__element {
+            margin-top: 25px;
+            padding: 20px 0;
+          
+            &:last-child {
+                margin-right: 0;
+            }
+            &:hover {
+                text-align: center;
+                vertical-align: center;
+                .menu__link {
+                    border-bottom: 1px solid $white;
+                }
+                
+            }
+          
+        }
+        .menu__link {
+            color: $white;
+        }
+    }
+   
+}
+
+@media (max-width: 580px) {
+  
+    .menu__list--active {
+        align-items: center;
+    }
+}
 
 
