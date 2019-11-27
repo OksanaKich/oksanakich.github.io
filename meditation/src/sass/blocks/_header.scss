@@ -18,20 +18,11 @@
 .header__wrap {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     z-index: 3;
 }
-.header__element {
 
-}
-.header__nav {
-    padding-top: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 2;
-    order: 3;
 
-}
 .header__logo {
     display: flex;
     align-items: center;
@@ -51,31 +42,50 @@
     font-size: 20px;
     margin-left: 20px;
 }
-.header__menu  {
+
+
+.header__menu {
+    list-style: none;
     display: flex;
     justify-content: flex-end;
-    li {
-        padding: 20px;
+    align-items: center;
+    z-index: 2;
+    order: 2;
+    .menu__element {
+        transition-duration: 500ms;
+        transition-property: background-color;
+        padding: 0 20px;
         list-style: none;
     }
+    .menu__link {
+        text-decoration: none;
+        
+        &:focus {
+            color: $logo;
+        }
+    }
+
     a {
         text-decoration: none;
         color: $white;
         font-family: 'Montserrat Alternates', sans-serif;
         font-size: 20px;
+        border-top: 1px solid transparent;
         border-bottom: 1px solid transparent;
         padding-bottom: 5px;
         &:hover {
             border-bottom: 1px solid $logo;
         }
     }
-    
 }
+
+
 .header__lang {
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 2;
+    order: 3;
     a {
         text-decoration: none;
         color: $white;
@@ -133,6 +143,11 @@
         letter-spacing: 1.2;
     }
 }
+
+
+
+
+
 @media (max-width: 980px){
     .header {
         padding: 10px 0 150px 0;
@@ -154,22 +169,39 @@
         padding: 0 10px;
     }
     .header__logo {
-        order: 1;
         display: flex;
         justify-content: flex-start;
         align-items: center;
         img {
             width: 60px;
         }
-    .logo__name {
-        margin-left: 5px;
-    }   
+        .logo__name {
+            margin-left: 5px;
+        }   
     }
     .header__lang {
-        order: 2;
         margin-left: -20px;
+        order: 2;
+    }
+    
+    .header__menu {
+        margin-top: 10px;
+        justify-content: center;
+        padding-left: 0;
+        order: 3;
+        margin: 0 auto;
+        display: none;
+    
     }
 
+    .menu__element {
+        padding: 20px 20px;
+        a {
+            padding: 5px 0;
+          
+        }
+  
+    }  
 
 
     .header__quote  {
@@ -185,7 +217,7 @@
 @media (max-width: 480px)  {
 
     .header__quote  {
-       
+        margin: 145px 0 125px;
         p {
             margin-bottom: 20px;
             font-size: 20px;
