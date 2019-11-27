@@ -57,7 +57,7 @@
         color: $white;
         border-bottom: 1px solid transperant;
         display: block;
-        &:hover {
+        &:hover, &:active {
             border-bottom: 1px solid #e74c3c;
             span {
                 color: #e74c3c;
@@ -79,7 +79,7 @@
         }
         .lang__divider {
             margin-left: 5px;
-            border-right: 2px solid $white;
+            border-right: 2px solid $logo;
             line-height: 1;
             font-size: 14px;
         }
@@ -212,7 +212,5 @@
    
         margin-left: 5px;
     }
-    .header__lang {
-        right: 55px;
-    }
+  
 }
