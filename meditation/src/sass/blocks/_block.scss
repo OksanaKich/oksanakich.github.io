@@ -1,0 +1,55 @@
+.block {
+    margin-top: 30px;
+    display: flex;
+}
+
+.block__photo  {
+    flex-basis: 19%;
+    
+    align-items: top;
+    img {
+        width: 100%;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    .name {
+        text-align: center;
+        font-weight: 700;
+        color: $textColor;
+        line-height: 0.4;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .years {
+        text-align: center;
+        font-weight: 400;
+        color: $quoteColor;
+        line-height: 0.2;
+        
+    }
+    .place {
+        text-align: center;
+        font-weight: 300;
+        color: $quoteColor;
+        line-height: 0.2;
+    }
+    
+}
+
+.block__photo--left {
+    margin-right: 20px;
+}
+.block__photo--right {
+    margin-left: 20px;
+}
+
+
+.block__text--center {
+    flex-basis: 58%;
+    p {
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
+.block__hidden {
+    flex-basis: 19%;
+}

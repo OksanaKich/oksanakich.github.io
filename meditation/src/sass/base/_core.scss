@@ -21,7 +21,7 @@ body {
 }
 
 .wrap {
-	@include min-max(0, 1200px, 15px);
+	@include min-max(0, 1280px, 15px);
 	box-sizing: border-box;
 }
 
