@@ -1,6 +1,7 @@
 .block {
     margin-top: 30px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .block__photo  {
@@ -52,4 +53,25 @@
 }
 .block__hidden {
     flex-basis: 19%;
+}
+@media (max-width: 980px) {
+    .block__photo {
+     flex-basis: 50%;
+     margin: 0 auto;
+    }
+    .block__text--center {
+        flex-basis: 100%;
+    }
+    .who-am-i__block {
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width: 480px) {
+    .block__photo {
+     flex-basis: 80%;
+     margin: 0 auto;
+    }
+    .block__text--center {
+        flex-basis: 100%;
+    }
 }
