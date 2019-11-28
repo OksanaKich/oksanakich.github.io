@@ -79,12 +79,18 @@
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 980px) {
     menu {
         width: 900px;
     }
     .menu__list {
         display: none;
+        .menu__element {
+            padding: 0 5px;
+        }
+    }
+    .menu__element:last-child {
+        margin-right: 80px;
     }
     .menu__list--active {
         flex-direction: column;
