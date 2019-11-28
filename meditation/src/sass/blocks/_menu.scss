@@ -98,7 +98,9 @@
         align-items: center;
         width: 100vw;
         height: 100vh;
-        background: $logo;;
+        background: linear-gradient(to top, #404040, #999999);
+        
+
         z-index: 3;
         margin-top: -75px;
         display: flex;
@@ -115,6 +117,7 @@
             &:hover {
                 text-align: center;
                 vertical-align: center;
+                
                 .menu__link {
                     border-bottom: 1px solid $white;
                 }
@@ -124,6 +127,7 @@
         }
         .menu__link {
             color: $white;
+            font-size: 40px;
         }
     }
    
@@ -133,6 +137,9 @@
   
     .menu__list--active {
         align-items: center;
+    }
+    .menu__element:last-child {
+        margin-right: 100px;
     }
 }
 
