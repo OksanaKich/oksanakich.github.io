@@ -1,0 +1,43 @@
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: $titleColor;
+    text-align: center;
+}
+.quote {
+    text-align: center;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    font-weight: 400;
+    color: $quoteColor;
+
+}
+.lotus {
+    
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    img {
+        height: 100%;
+        width: 50px;
+        opacity: 0.8;
+    }
+}
+@media (max-width: 980px) {
+    .quote {
+        width: 60%;
+    }
+}
+@media (max-width: 768px) {
+    .quote {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .quote {
+        width: 90%;
+    }
+}

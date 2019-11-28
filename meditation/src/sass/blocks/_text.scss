@@ -1,0 +1,26 @@
+.text__block {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.text {
+    color: $textColor;
+    line-height: 1.5;
+    text-align: justify;
+    text-indent: 5%;
+
+}
+.text--dialog {
+    text-indent: 0;
+}
+.dialog {
+    color: $quoteColorTwo;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .text__block {
+        width: 100% ;
+        
+    }
+}

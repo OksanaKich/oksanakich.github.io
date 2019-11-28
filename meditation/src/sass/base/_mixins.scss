@@ -50,7 +50,7 @@
 }
 
 
-@mixin divider ($color-line: $white) {
+@mixin divider ($color-line: $dividerColor) {
   display: block;
   width: 7px;
   position: relative;

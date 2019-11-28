@@ -10,7 +10,7 @@ html {
 }
 
 body {
-	font-family: 'roboto_condensedregular', 'Arial', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	overflow-wrap: break-word;
 	word-wrap: break-word;
 }
@@ -21,6 +21,7 @@ body {
 }
 
 .wrap {
-	@include min-max(320px, 1200px, 15px);
-  }
+	@include min-max(0, 1200px, 15px);
+	box-sizing: border-box;
+}
 
