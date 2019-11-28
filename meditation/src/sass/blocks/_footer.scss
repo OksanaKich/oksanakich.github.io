@@ -1,0 +1,15 @@
+.footer {
+    background: $textColor;
+    padding: 10px 0;
+    text-align: center;
+}
+.footer__info {
+    color: $white;
+    .year {
+        color: $red;
+    
+    }
+    .made {
+        color: $logo;
+    }
+}

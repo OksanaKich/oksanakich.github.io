@@ -1,8 +1,14 @@
 .section{
     padding: 80px 0 0 0;
 }
+.vichara {
+    padding-bottom: 60px;
+}
 @media (max-width: 768px) {
     .section{
         padding: 30px 0 0 0;
+    }
+    .vichara {
+        padding-bottom: 30px;
     }
 }
