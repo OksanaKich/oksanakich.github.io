@@ -94,7 +94,7 @@
     }
     .menu__list--active {
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         width: 100vw;
         height: 100vh;
@@ -108,8 +108,10 @@
      
             
         .menu__element {
-            margin-top: 25px;
-            padding: 20px 0;
+        /*     margin-top: 25px;
+            padding: 20px 0; */
+            margin-bottom: 120px;
+            display: block;
           
             &:last-child {
                 margin-right: 0;
