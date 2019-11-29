@@ -1,7 +1,8 @@
 # oksanakich.github.io
 
 
-Portfolio Own Projects:
+Portfolio
+
 
 [Meditation](https://oksanakich.github.io/meditation/src/)
 
