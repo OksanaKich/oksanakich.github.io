@@ -1,6 +1,13 @@
 .text__block {
     width: 725px;
     margin: 0 auto;
+    margin-top: 40px;
+    a {
+        color: $quoteColorThree;
+        &:hover {
+            color: $logo;
+        }
+    }
 }
 
 .text {
@@ -8,19 +15,21 @@
     line-height: 1.5;
     text-align: justify;
     text-indent: 5%;
+    font-weight: 500;
 
-}
-.text--dialog {
-    text-indent: 0;
 }
 .dialog {
     color: $quoteColorTwo;
     font-weight: 600;
 }
 
+.text--source {
+    color: $quoteColor;
+    font-style: italic;
+}
+
 @media (max-width: 768px) {
     .text__block {
         width: 100%;
-        
     }
 }
