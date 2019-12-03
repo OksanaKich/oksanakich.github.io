@@ -19,7 +19,7 @@ Portfolio Studying Projects:
 
 [fashion-shop](https://oksanakich.github.io/fashion-shop/src/)
 
-[Pulsometer - sales page](https://oksanakich.github.io/pulsometer/src/)
+[Pulsometer - sales page (not fully responsive](https://oksanakich.github.io/pulsometer/src/)
 
 [Uber Partners](https://oksanakich.github.io/uber/)
 
@@ -27,7 +27,7 @@ Portfolio Studying Projects:
 
 [Webinar - promotion simgle page](https://oksanakich.github.io/wordpress/)
 
-[inWeb 3-pages personal website](https://oksanakich.github.io/inweb/)
+[inWeb 3-pages personal website (not fully responsive](https://oksanakich.github.io/inweb/)
 
 [Bukee - Book Author One Page](https://oksanakich.github.io/Bukee/)
 
