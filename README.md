@@ -9,7 +9,7 @@ Portfolio
 
 Portfolio Studying Projects:
 
-[Folk - landing (js: hamburger menu, slider, css: chart)](https://oksanakich.github.io/folk/src/)
+[Folk - landing](https://oksanakich.github.io/folk/src/)
 
 [studio-design - grid practice](https://oksanakich.github.io/studio-design/)
 
