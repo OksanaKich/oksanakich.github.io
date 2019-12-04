@@ -3,6 +3,7 @@
 
 Portfolio
 
+[On The Shore Of Eternity Poetry](https://oksanakich.github.io/shore-of-eternity/src/)
 
 [Meditation](https://oksanakich.github.io/meditation/src/)
 
