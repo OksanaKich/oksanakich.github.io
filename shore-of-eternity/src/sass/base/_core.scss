@@ -17,6 +17,7 @@ body {
 
 .container {
 	@include min-max(0, 100%, 0);
+	background: $bg;
 }
 
 .wrap {

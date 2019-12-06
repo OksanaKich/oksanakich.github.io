@@ -1,4 +1,4 @@
-body {
+/* body {
 	font-size:22px;
 	line-height: 32px;
 	color: #ffffff;
@@ -6,7 +6,7 @@ body {
 	padding: 0;
 	word-wrap:break-word !important;
 	font-family: 'Open Sans', sans-serif;
-	}
+	} */
 
 h1 {
 	font-size: 60px;
@@ -70,11 +70,13 @@ nav {
 	padding: 0 30px;
 	font-size: 30px;
     line-height: 60px;
-    color: #23234dd0;
-    font-family: 'Bad Script', cursive;
-    /* font-family: 'Marck Script', cursive; */
-    font-weight: 700;
-    letter-spacing: 1.4px;
+    color: $logoColor;
+   
+    font-family: 'Marck Script', cursive; 
+    font-weight: 300;
+	letter-spacing: 1.1px;
+	top: -5px;
+	right: 0;
 }
 
 /* Since we'll have the "ul li" "float:left"
@@ -106,6 +108,7 @@ ul li.menu__item {
 	text-transform: none;
 	letter-spacing: normal;
 	font-weight: 300;
+	
 }
 /* Positioning the navigation items inline */
 nav ul li {
@@ -118,28 +121,27 @@ nav ul li {
 /* Styling the links */
 nav a {
 	display:block;
-	padding:14px 30px;	
-	color:#3f3d42;
+	padding: 14px 30px;	
+	color:#323233;
 	font-size:18px;
 	font-weight: 600;
     text-decoration:none;
     font-family: 'Neucha', cursive;
 	letter-spacing: 1.4px;
-	
-
-	
-    
+	&:hover {
+		color: $white;
+	}
 }
 
 
 nav ul li ul li:hover { 
-	background: #a19f9f; 
+	background: #d6d4d4; 
 	font-family: 'Open Sans', sans-serif;
 }
 
 /* Background color change on Hover */
 nav a:hover { 
-	background-color: #6da7d7a2; 
+	background-color: #615f5f73; 
 	
 }
 
@@ -149,7 +151,7 @@ nav ul ul {
 	display: none;
 	position: absolute; 
 	/* has to be the same number as the "line-height" of "nav a" */
-	top: 60px; 
+	top: 48px; 
 	
 }
 	
@@ -195,6 +197,7 @@ li > a:only-child:after { content: ''; }
 		width: 100%;
 		text-align: center;
 		position: absolute;
+		
 		/* float: none; */
 	}
 
@@ -219,16 +222,20 @@ li > a:only-child:after { content: ''; }
 	/* Stylinf the toggle lable */
 	.toggle {
 		display: block;
-		background-color: #000000;
+		background-color: #ddd6d6;
 		padding:14px 20px;	
-		color:#FFF;
+		color:#131212;
 		font-size:17px;
 		text-decoration:none;
 		border:none;
 	}
 
 	.toggle:hover {
-		background-color: #1f1e1e;
+		background-color: transparent;
+	}
+	.toggle--main:hover {
+		background-color: #615f5f;
+		color: #fff;
 	}
 
 	/* Display Dropdown when clicked on Parent Lable */
@@ -240,6 +247,7 @@ li > a:only-child:after { content: ''; }
 	nav ul li {
 		display: block;
 		width: 100%;
+		border-bottom: 1px solid #a5a2a2;
 		}
 
 	nav ul ul .toggle,
@@ -260,7 +268,7 @@ li > a:only-child:after { content: ''; }
 	nav ul ul a,
   nav ul ul ul a{
 		padding:14px 20px;	
-		color:#FFF;
+		color:#0e0d0d;
 		font-size:17px; 
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 300;
@@ -270,14 +278,14 @@ li > a:only-child:after { content: ''; }
   
 	nav ul li ul li .toggle,
 	nav ul ul a {
-		background-color: #212121; 
+		background-color: #f3ecec; 
 	}
 
 	/* Hide Dropdowns by Default */
 	nav ul ul {
 		/* float: none; */
 		position:static;
-		color: #ffffff;
+		color: #070707;
 		/* has to be the same number as the "line-height" of "nav a" */
 	}
 		
