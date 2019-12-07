@@ -1,16 +1,14 @@
-section {
-    padding: 150px 0;
-}
 
-.one__block {
+
+.book__block {
     display: flex;
     justify-content: center;
     margin: 0 auto;
 }
 
 .title {
-   /*  font-family: 'Marck Script', cursive; */
-    font-family: 'Neucha', cursive;
+    font-family: 'Ubuntu Mono', monospace;
+    letter-spacing: -1px;
     font-size: 50px;
     margin: 0 auto;
     text-align: center;
@@ -21,44 +19,46 @@ section {
 
 }
 
-.block__poem {
-    flex-basis: 50%;
-    
-    
-}
 
-img {
+.block__img {
     width: fit-content;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-    border-radius: 10px 0 0 10px;
-    height: 800px;
+    
     width: 533px;
+    border-radius: 0  20px 20px 0;
+    padding-left: 3px;
+    background: rgba(145, 113, 73, 0.5)
 }
 .block__poem {
-    
-  
-    box-shadow: 0 18px 54px rgba(145, 113, 73, 0.25), 0 20px 23px rgba(46,29,15,1.363);
-    border-radius: 0 10px 10px 0;
-    
+    flex-basis: 50%;
+    background: url(../../img/paper.png) center center;
     margin-top: 0;
+    margin-right: 0;
+    border: 1px solid $gold;
+    border-right: transparent;
+    box-shadow: 0 18px 54px rgba(145, 113, 73, 0.25), 0 20px 23px rgba(46,29,15,1.363);
+    border-radius: 20px 0 0 20px;
     height: 800px;
-    p {
-        padding: 15px 0;
-        text-align: left;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 500;
-        font-size: 18px;
-        padding-left: 100px;
-        letter-spacing: -0.5px;
-        line-height: 24px;
-    }
 }
+
 .date {
     font-family: 'Marck Script', cursive;
     text-align: right;
     display: block;
     margin-right: 50px;
     font-size: 30px;
+}
+.poem {
+    padding: 15px 0;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 24px;
+}
+.poem--right {
+    padding-left: 100px;
 }
 
 @media (max-width: 1100px) {
@@ -79,8 +79,8 @@ img {
         margin: 10px;
         justify-content: space-evenly;
     }
-   img {
-       height: 700px;
+    .block__img {
+      
        width: 100%;
     }
     .block__poem {
@@ -94,14 +94,13 @@ img {
         margin: 10px;
         justify-content: space-evenly;
     }
-   img {
-       height: 600px;
-       width: 400px;
+    .block__img  {
+       width: 100%;
     }
     .block__poem {
         height: 600px;
         width: calc(100% - 600px);
-        p {
+        .poem {
             padding-top: 10px;
             font-size: 16px;
             padding-bottom: 10px;
@@ -110,15 +109,15 @@ img {
 }
 @media (max-width: 768px) {
     section {
-        padding: 60px 0;
+        padding: 30px 0;
     }
     .one__block {
        flex-direction: column;
        align-items: center;
        justify-content: center;
     }
-   img {
-       width: 400px;
+    .block__img  {
+       width: 100%;
        border-radius: 10px 10px 0 0;
    }
  
@@ -127,7 +126,7 @@ img {
         height: 600px;
         width: 400px;
         border-radius:  0 0 10px 10px;
-        p {
+        .poem {
             padding-top: 30px;
             font-size: 16px;
             padding-bottom: 10px;
@@ -144,7 +143,6 @@ img {
 
    img {
        width: 100%;
-       height: 100%;
 
    }
  
@@ -154,3 +152,18 @@ img {
     
     }
 }
+@media (max-width: 340px) {
+    .title {
+        font-size: 35px;
+    }
+    .block__poem {
+    
+        .poem {
+            font-size: 16px;
+            padding-left: 20px;
+        }
+    }
+  
+}
+
+

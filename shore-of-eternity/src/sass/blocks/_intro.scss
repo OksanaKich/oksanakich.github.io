@@ -1,0 +1,27 @@
+.intro__section{
+    padding: 40px 0 0;
+}
+.intro__block, .center__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.intro__poem {
+    padding: 0;
+    margin: 0;
+}
+svg {
+    fill: #d18941;
+}
+.divider__img {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 350px) {
+    .divider__img {
+       width: 250px;
+    } 
+}
