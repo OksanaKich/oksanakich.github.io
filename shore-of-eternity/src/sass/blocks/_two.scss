@@ -1,38 +1,9 @@
 .title__two {
     margin-bottom: 0;
 }
-.two__poem {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 65px;
-}
-.divider__two {
-    margin-top: -20px;
-    margin-bottom: -20px;
-
-}
 .two__divider--down {
-    width: 120px;
-    margin-top: -40px;
+    width: 150px;
 }
-.two__date {
-    margin-right: 0;
-}
-
-@media (max-width: 560px) {
-    .two__poem {
-        margin-left: 10px;
-    }
-    .two__divider {
-        margin-top: 0;
-        margin-bottom: -38px;
-    }
-}
-
-@media (max-width: 400px) {
-    .two__poem {
-        font-size: 15px;
-        letter-spacing: -1px;
-    }
- 
+.two__block {
+    width: 95%;
 }

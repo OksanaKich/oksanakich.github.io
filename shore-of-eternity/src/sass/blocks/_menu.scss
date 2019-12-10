@@ -62,7 +62,6 @@ nav {
     display: flex;
 	justify-content: space-between;
 	
-	
 }
 
 #logo {
@@ -97,6 +96,7 @@ nav ul {
 	margin:0;
 	list-style: none;
 	position: relative;
+	margin-top: 12px;
 }
 	
 ul li.menu__item {
@@ -116,7 +116,9 @@ nav ul li {
 	display:inline-block;
 	/* float: left; */
 	background-color: #d7d2d9cb;
-	}
+	
+	
+}
 
 /* Styling the links */
 nav a {
@@ -151,7 +153,7 @@ nav ul ul {
 	display: none;
 	position: absolute; 
 	/* has to be the same number as the "line-height" of "nav a" */
-	top: 48px; 
+	top: 30px; 
 	
 }
 	
@@ -192,6 +194,9 @@ li > a:only-child:after { content: ''; }
 
 @media all and (max-width : 768px) {
 
+	.media__menu {
+		margin-top: 1px;
+	}
 	#logo {
 		padding: 0;
 		width: 100%;

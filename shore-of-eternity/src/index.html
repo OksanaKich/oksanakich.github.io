@@ -24,7 +24,7 @@
                         <label for="drop-1" class="toggle toggle--main">Вірші   <span>&#10011;</span></label>
                         <a href="#">Вірші</a>
                         <input type="checkbox" id="drop-1"/>
-                        <ul>
+                        <ul class="media__menu">
                             <li><a class="poem__title" href="#one">Розстанеш раптом, розіллєшся</a></li>
                             <li><a class="poem__title" href="#">Чи чуєш мене ти?</a></li>
                             <li><a class="poem__title" href="#">Viator</a></li>
@@ -42,7 +42,7 @@
                     <label for="drop-2" class="toggle toggle--main">Інші вірші   <span>&#10011;</span></label>
                     <a href="#">Інші вірші</a>
                     <input type="checkbox" id="drop-2"/>
-                    <ul>
+                    <ul class="media__menu">
                         <li><a class="poem__title" href="#">Сльозами, відчаєм ти омиваєшся</a></li>
                         <li><a class="poem__title" href="#">Я казала тобі</a></li>
                         <li><a class="poem__title" href="#">Вона надто багато плакала</a></li>
@@ -65,7 +65,7 @@
                     <a href="#">Проза</a>         
                     <input type="checkbox" id="drop-3"/>
 
-                        <ul>
+                        <ul class="media__menu">
                             <li><a class="poem__title" href="#">Ким я стану, коли мене не стане</a></li>
                             <li><a class="poem__title" href="#">Я знаю лежить за межами слів</a></li>
                             <li><a class="poem__title" href="#">Хто ти</a></li>
@@ -104,75 +104,87 @@
 
     <section class="one" id="one">
         <h2 class="title">Розстанеш раптом, розіллєшся</h2>
-        <div class="one__block book__block wrap">
-            <div class="block__img">
+        <div class="one__block wrap">
+            <div class="one__poem">
+                <div class="poem__center">
+                    <svg class="poem__divider">
+                        <use xlink:href="img/symbol/sprite.svg#divider-5">
+                    </svg>
+                    <p class="poem">Розтанеш, раптом розіллєшся,<br>
+                        Впадеш, щоб руки простягнути:<br>
+                        «Коли до мене ти вернешся,<br>
+                        Коли любові мною бути?»<br><br>
+                        
+                        Зі снів незгаданих фрагменти,<br>
+                        Чого боїшся, те зібрати,<br>
+                        Стихій бурхливих елементи,<br>
+                        Прокинутись, щоб пригадати.<br><br>
+                        
+                        «Моя кохана, що не чула<br>
+                        Цих слів палких уже віками,<br>
+                        Коли зі мною ти зіллєшся,<br>
+                        Ти станеш всім, ти станеш нами.»<br><br>
+                        
+                        Серед шляхів котрих немає,<br>
+                        В траві прокласти свою стежку.<br>
+                        «О, любий мій, я так чекала,<br>
+                        Тебе, тебе! Любов безмежна!»<br><br>
+                        
+                        «Як уві сні почуєш голос,<br>
+                        Впіймавши час, спинивши думку,<br>
+                        Віддам тобі усе належне,<br>
+                        Спочинеш в тіні мого смутку.»<br><br>
+                        
+                        «Моя любов розправить крила,<br>
+                        І серед тих думок чужинців,<br>
+                        Тебе, тебе вона впізнає!<br>
+                        І вже не будем поодинці!..»<br><br>
+                        
+                        
+                    </p>
+                    <span class="date"> 13-06-2013</span>
+                </div>
+            </div>
+
+            <div class="one__img">
                 <img  class="block__img" src="img/one.JPG" alt="photo">
             </div>
-            <div class="block__poem">
-                <p class="poem poem--right">Розтанеш, раптом розіллєшся,<br>
-                    Впадеш, щоб руки простягнути:<br>
-                    «Коли до мене ти вернешся,<br>
-                    Коли любові мною бути?»<br><br>
-                    
-                    Зі снів незгаданих фрагменти,<br>
-                    Чого боїшся, те зібрати,<br>
-                    Стихій бурхливих елементи,<br>
-                    Прокинутись, щоб пригадати.<br><br>
-                    
-                    «Моя кохана, що не чула<br>
-                    Цих слів палких уже віками,<br>
-                    Коли зі мною ти зіллєшся,<br>
-                    Ти станеш всім, ти станеш нами.»<br><br>
-                    
-                    Серед шляхів котрих немає,<br>
-                    В траві прокласти свою стежку.<br>
-                    «О, любий мій, я так чекала,<br>
-                    Тебе, тебе! Любов безмежна!»<br><br>
-                    
-                    «Як уві сні почуєш голос,<br>
-                    Впіймавши час, спинивши думку,<br>
-                    Віддам тобі усе належне,<br>
-                    Спочинеш в тіні мого смутку.»<br><br>
-                    
-                    «Моя любов розправить крила,<br>
-                    І серед тих думок чужинців,<br>
-                    Тебе, тебе вона впізнає!<br>
-                    І вже не будем поодинці!..»<br><br>
-                    
-                    <span class="date"> 13-06-2013</span>
-                    </p>
-            </div>
         </div>
+        <svg class="divider__img one__divider--down">
+            <use xlink:href="img/symbol/sprite.svg#divider-4">
+        </svg>
     </section>
     <section class="two">
-        <div class="two__block center__block wrap">
+        <div class="two__block wrap">
             <h2 class="title title__two">Чи чуєш мене ти?</h2>
-            <svg class="divider__img two__divider">
-                <use xlink:href="img/symbol/sprite.svg#divider-3">
-            </svg>
-            <p class="two__poem poem ">Любий мій, чи чуєш мене ти?<br>
-                    Кличеш мене, та не можу прийти.<br>
-                    Ти все, ти навколо, ти поруч зі мною,<br>
-                    Та я не побачу, не буду з тобою.<br><br>
-                    
-                    І пити лиш тишу до дна, вже сп’яніла,<br>
-                    Вона непорушна, глуха, й заніміла.<br> 
-                    Пробудить лиш плюскіт хвиль невблаганних:<br>
-                    «Хто ми? Де вони? Хто вона безталанна?»<br><br>
-                    
-                    Слова мов пісок прослизають крізь пальці,<br>
-                    Я бачу сліди на канві мов від п’яльців.<br> 
-                    Мене вже нема, я лишилась без тіла,<br>
-                    Розтанула, щезла… глуха й заніміла.<br><br>
-                    
-                    Подай мені руку – перейду в інакшість,<br>
-                    Мене благодать вже пронизує наскрізь.<br><br></p>
-            <span class="date two__date">14-06-2013</span>
-            <svg class="divider__img two__divider--down">
-                <use xlink:href="img/symbol/sprite.svg#divider-4">
-            </svg>
+            <div class="poem__center">
+                <svg class="divider__img">
+                    <use xlink:href="img/symbol/sprite.svg#divider__flip">
+                </svg>
+                <p class="poem ">Любий мій, чи чуєш мене ти?<br>
+                        Кличеш мене, та не можу прийти.<br>
+                        Ти все, ти навколо, ти поруч зі мною,<br>
+                        Та я не побачу, не буду з тобою.<br><br>
+                        
+                        І пити лиш тишу до дна, вже сп’яніла,<br>
+                        Вона непорушна, глуха, й заніміла.<br> 
+                        Пробудить лиш плюскіт хвиль невблаганних:<br>
+                        «Хто ми? Де вони? Хто вона безталанна?»<br><br>
+                        
+                        Слова мов пісок прослизають крізь пальці,<br>
+                        Я бачу сліди на канві мов від п’яльців.<br> 
+                        Мене вже нема, я лишилась без тіла,<br>
+                        Розтанула, щезла… глуха й заніміла.<br><br>
+                        
+                        Подай мені руку – перейду в інакшість,<br>
+                        Мене благодать вже пронизує наскрізь.<br><br></p>
+                <span class="date two__date">14-06-2013</span>
+                <svg class="divider__img two__divider--down">
+                    <use xlink:href="img/symbol/sprite.svg#divider-4">
+                </svg>
+            </div>
         </div>
-    </section>
+    </section> 
 
     <section class="three" id="three">
         <h2 class="title">Viator</h2>
@@ -181,8 +193,8 @@
                 <img src="img/three.JPG" alt="photo">
             </div>
             <div class="three__poem">
-                <h2 class="title"></h2>
-                <p class="poem poem--three">
+                <div class="poem__center">
+                    <p class="poem poem--three">
                     Тебе! Тебе! До тебе лину!<br>
                     Не помічаю часу плину,<br>
                     Застигла вічність у вікні,<br>
@@ -214,9 +226,9 @@
                     То він ішов не знавши мора, <br> 
                     Шлях прокладав для віатора! <br><br>  </p>
                     <span class="date">17-07-2013</span>
-                    <span class="footnote"> <b>Móra</b> –  лат.  затримка, зволікання, зупинка,
+                    <span class="footnote"> <span class="word">Móra</span> –  лат.  затримка, зволікання, зупинка,
                     «не  знавши мора» – не спиняючись, не зволікаючи.<br>
-                    <b>Viator</b> – лат. подорожуючий, мандрівник.</span>
+                    <span class="word">Viator</span> – лат. подорожуючий, мандрівник.</span>
                 </div>
             </div>
     </section>
