@@ -3,11 +3,12 @@
     justify-content: center;
 }
 .five__poem {
-    background: url(../img/paper.png) center center;
+    background: url(../img/paper.png) center center no-repeat;
+    background-size: cover;
     box-shadow: 0 18px 54px rgba(145, 113, 73, 0.25), 0 20px 23px rgba(46,29,15,1.363);
     border-radius: 20px;
     z-index: 2;
-    margin-left: -100px;
+    margin-right: -100px;
     margin-top: -50px;
     flex-basis: 70%;
 }
@@ -24,6 +25,7 @@
     margin-top: 50px;
 }
 
+
 @media (max-width: 1000px) {
 
     .five__block {
@@ -32,7 +34,7 @@
     }
     .five__poem {
         width: 100%;
-        margin-left: 0;
+        margin-right: 0;
         margin-top: -15px;
         z-index: 2;
     }
