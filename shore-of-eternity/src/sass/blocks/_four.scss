@@ -1,0 +1,9 @@
+.four__title {
+    margin-bottom: 0;
+}
+
+@media (max-width: 400px) {
+    .four__title {
+        margin-top: 30px;
+    } 
+}

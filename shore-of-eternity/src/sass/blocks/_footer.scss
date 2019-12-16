@@ -1,0 +1,65 @@
+.footer {
+    background: $mainColor;
+    padding: 10px 0;
+  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer__info {
+    color: $logoColor;
+    font-family: 'Ubuntu Mono', monospace;
+    &:last-child {
+        margin-left: 5px;
+    }
+    .author{
+        color: $gold;
+    }
+    
+    .year {
+        color: $white;
+    
+    }
+    
+    .made {
+        color: $gold;
+    }
+}
+
+
+@media (max-width: 530px) {
+    .footer__info {
+        
+        &:first-child {
+            margin-top: 10px 0;
+            margin-bottom: 0;
+         
+        }
+       &:last-child {
+      
+        margin-top: 0;
+        margin-bottom: 20px;
+       
+      
+       }
+    }
+}
+
+@media (max-width: 350px) {
+    .footer {
+        justify-content: flex-start;
+    }
+    .footer__info {
+        margin-left: 10px;
+        &:first-child {
+         
+            
+        }
+       &:last-child {
+        margin-left: 10px;
+       
+        text-align: center;
+      
+       }
+    }
+}
