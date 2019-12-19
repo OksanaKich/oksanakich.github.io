@@ -1,6 +1,7 @@
 .eleven__block  {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .eleven__poem {
     background: url(../img/paper.png) center center;
@@ -8,12 +9,13 @@
     border-radius: 20px;
     z-index: 2;
     margin-left: -100px;
-    margin-top: -50px;
-    flex-basis: 70%;
+    margin-top: 0;
+    flex-basis: 50%;
 }
 .eleven__img {
-    flex-basis: 60%;
-    margin-top: 0;
+    flex-basis: 100%;
+ /*    margin-top: 150px; */
+    
 
     img {
         width: 100%;
@@ -21,7 +23,12 @@
     }
 }
 .poem--eleven {
-    margin-top: 50px;
+    margin-top: 70px;
+    margin-bottom: 0;
+}
+ 
+.date--eleven {
+    margin-top: 30px;
 }
 
 @media (max-width: 1000px) {
@@ -40,6 +47,12 @@
     .eleven__img {
         width: 100%;
         margin-top: 0;
+    }
+    .three__block--viator {
+        flex-direction: column;
+    }
+    .three__block--viator--two {
+        flex-direction: column-reverse;
     }
 }
 

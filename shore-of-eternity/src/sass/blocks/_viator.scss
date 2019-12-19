@@ -1,0 +1,32 @@
+.viator-three__poem {
+    background: url(../img/paper.png) center center no-repeat;
+    background-size: cover;
+    margin-top: -250px;
+}
+
+.three__poem--up {
+    margin-top: -250px;
+}
+.three__img--down {
+    margin-top: 250px;
+}
+
+@media (max-width: 1000px) {
+
+    .three__block--viator {
+        flex-direction: column;
+    }
+    .three__block--viator--two {
+        flex-direction: column-reverse;
+    }
+    .viator-three__poem {
+     
+        margin-top: 0;
+    }
+    .three__poem--up {
+        margin-top: 0;
+    }
+    .three__img--down {
+        margin-top: 0;
+    }
+}

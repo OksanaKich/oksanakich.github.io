@@ -24,7 +24,12 @@
 .poem--five {
     margin-top: 50px;
 }
-
+.five__poem--nectar {
+   margin-top: 30px;
+}
+.five__img--nectar {
+    margin-top: 180px;
+}
 
 @media (max-width: 1000px) {
 
@@ -38,9 +43,14 @@
         margin-top: -15px;
         z-index: 2;
     }
-  
+    .five__poem--nectar {
+        margin-top: 0;
+     }
     .five__img {
         width: 100%;
+        margin-top: 0;
+    }
+    .five__img--nectar {
         margin-top: 0;
     }
 }
