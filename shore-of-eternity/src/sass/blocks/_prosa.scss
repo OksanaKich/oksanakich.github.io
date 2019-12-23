@@ -1,0 +1,28 @@
+.title__prosa {
+    margin-bottom: 0;
+}
+.prosa {
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: -0.5px;
+    line-height: 24px;
+    margin-right: 0;
+}
+
+.prosa__divider {
+    width: 30%;
+ 
+    margin: 0 auto;
+    display: block;
+   
+    margin-top: -30px;
+    svg {
+      
+    }
+}
+
+.prosa__divider--down {
+    width: 20%;
+}
