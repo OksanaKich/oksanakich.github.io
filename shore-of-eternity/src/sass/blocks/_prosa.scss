@@ -26,3 +26,52 @@
 .prosa__divider--down {
     width: 20%;
 }
+
+
+@media (max-width: 1400px) {
+    .prosa__divider {
+        width: 40%;
+    }
+    .prosa__divider--down {
+        width: 30%;
+    }
+}
+@media (max-width: 1150px) {
+    .prosa__divider {
+        width: 50%;
+    }
+    .prosa__divider--down {
+        width: 40%;
+    }
+
+}
+@media (max-width: 980px) {
+    .prosa__divider {
+        width: 60%;
+    }
+    .prosa__divider--down {
+        width: 50%;
+    }
+    .prosa {
+       margin-left: 10px;;
+    }
+}
+
+@media (max-width: 768px) {
+    .prosa__divider {
+        width: 70%;
+    }
+    .prosa__divider--down {
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .prosa__divider {
+        width: 90%;
+    }
+    .prosa__divider--down {
+        width: 70%;
+    }
+}
