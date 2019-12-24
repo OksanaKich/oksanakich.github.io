@@ -1,6 +1,7 @@
 .become__block {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 60px;
 }
 .become__video {
     flex-basis: 40%;
@@ -60,7 +61,7 @@
 
 @media (max-width: 768px) {
     iframe {
-        width: 560px;
+        width: 100vw;
         height: 340px;
     }
 }
@@ -69,5 +70,8 @@
 @media (max-width: 400px) {
     iframe {
         width: 100vw;
+    }
+    .become__block {
+        margin-bottom: 30px;
     }
 }

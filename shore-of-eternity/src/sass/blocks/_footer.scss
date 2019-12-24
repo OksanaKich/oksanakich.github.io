@@ -37,7 +37,7 @@
         }
        &:last-child {
       
-        margin-top: 0;
+       
         margin-bottom: 20px;
        
       
@@ -45,6 +45,13 @@
     }
 }
 
+@media (max-width: 443px) {
+    .footer__info {
+       &:last-child {
+        margin-top: 0;
+       }
+    }
+}
 @media (max-width: 350px) {
     .footer {
         justify-content: flex-start;
