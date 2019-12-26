@@ -10,7 +10,13 @@
     line-height: 24px;
     margin-right: 0;
 }
-
+.date--prosa {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: -20px;
+}
 .prosa__divider {
     width: 30%;
  
@@ -18,10 +24,8 @@
     display: block;
    
     margin-top: -30px;
-    svg {
-      
-    }
 }
+
 
 .prosa__divider--down {
     width: 7%;
@@ -29,6 +33,7 @@
     display: block;
     margin: 0 auto;
 }
+
 
 
 @media (max-width: 1400px) {

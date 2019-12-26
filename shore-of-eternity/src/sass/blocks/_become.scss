@@ -5,6 +5,10 @@
 }
 .become__video {
     flex-basis: 40%;
+
+}
+.iframe {
+   margin-bottom: 0;
 }
 .become__prosa {
     flex-basis: 40%;
@@ -18,14 +22,15 @@
     .become__video {
         flex-basis: 50%;
     }
+  
     .become__prosa {
         flex-basis: 50%;
     }
-    iframe {
+ /*    iframe {
         width: 640px;
         height: 385px;
 
-    }
+    } */
 }
 @media (max-width: 1150px) {
     .become__block {
@@ -38,10 +43,10 @@
     .become__prosa {
         flex-basis: 40%;
     }
-    iframe {
+   /*  iframe {
         width: 560px;
         height: 340px;
-    }
+    } */
 }
 @media (max-width: 980px) {
     .become__block {
