@@ -10,6 +10,8 @@ Portfolio
 
 Portfolio Studying Projects:
 
+[bounsy - landing] (https://oksanakich.github.io/bouncy/src/)
+
 [Folk - landing](https://oksanakich.github.io/folk/src/)
 
 [studio-design - grid practice](https://oksanakich.github.io/studio-design/)
