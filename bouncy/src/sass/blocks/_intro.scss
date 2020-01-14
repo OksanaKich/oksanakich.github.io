@@ -1,0 +1,25 @@
+.intro {
+    
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 400px;
+    
+}
+.intro__title {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 35px;
+    color: $white;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.intro__text {
+    font-size: 16px;
+    color: $white;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+    max-width: 604px;
+    display: block;
+    margin: 0 auto;
+}
