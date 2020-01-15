@@ -23,6 +23,13 @@
     display: block;
     margin: 0 auto;
 }
+@media (max-width: 480px) {
+    .intro {
+        padding-top: 100px;
+        padding-bottom: 300px;
+    }
+}
+
 
 @media (max-width: 338px) {
     .intro__title {
