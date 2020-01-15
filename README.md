@@ -10,7 +10,7 @@
 
 Portfolio Projects:
 
-[bounsy - landing](https://oksanakich.github.io/bouncy/src/)
+[bouncy - landing](https://oksanakich.github.io/bouncy/src/)
 
 [Folk - landing](https://oksanakich.github.io/folk/src/)
 
@@ -21,6 +21,8 @@ Portfolio Projects:
 [bino-landing](https://oksanakich.github.io/bino-landing/)
 
 [fashion-shop](https://oksanakich.github.io/fashion-shop/src/)
+
+Studying Projects:
 
 [Pulsometer - sales page (not fully responsive)](https://oksanakich.github.io/pulsometer/src/)
 
