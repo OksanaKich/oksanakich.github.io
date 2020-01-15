@@ -23,3 +23,14 @@
     display: block;
     margin: 0 auto;
 }
+
+@media (max-width: 338px) {
+    .intro__title {
+        font-size: 35px;
+        letter-spacing: 5px;
+    }
+    .intro__text {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}

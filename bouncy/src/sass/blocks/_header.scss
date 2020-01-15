@@ -11,25 +11,14 @@
     color: $white;
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-    li {
-        list-style: none;
-        padding-left: 10px;
-        font-size: 16px;
-        a {
-            text-decoration: none;
-            color: white;
-            padding: 5px 20px;
-            border: 1px solid transparent;
-            &:hover  {
-                border: 1px solid $white;
-                border-radius: 25px;
-                
-               
-            }
-           
-        }
-    }
+@media (max-width: 330px) {
+   .header {
+       padding-right: 0;
+       padding-left: 0;
+   }
 }
+
+
+
+
+
