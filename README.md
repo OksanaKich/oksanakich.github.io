@@ -2,12 +2,6 @@
 
 
 
-
-[On The Shore Of Eternity - poetry](https://oksanakich.github.io/shore-of-eternity/src/)
-
-[Meditation](https://oksanakich.github.io/meditation/src/)
-
-
 Portfolio Projects:
 
 [bouncy - landing](https://oksanakich.github.io/bouncy/src/)
@@ -43,6 +37,17 @@ Studying Projects:
 [Some of these pages were made by video tutorials, thank the authors.]
 
 
+
 Solution for:
 
 [simple hamburger menu responsive](https://oksanakich.github.io/hamburger/src/)
+
+
+
+
+Own projects:
+
+
+[On The Shore Of Eternity - poetry](https://oksanakich.github.io/shore-of-eternity/src/)
+
+[Meditation](https://oksanakich.github.io/meditation/src/)
