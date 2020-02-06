@@ -1,0 +1,19 @@
+.buttons {
+    margin-top: 60px;
+
+    a {
+        @include btn();
+    }
+}
+/* 
+@media (max-width: 560px) {
+    .buttons {
+        a {
+            display: block;
+            margin: 10px auto;
+
+          
+        }
+    }
+}
+ */
