@@ -1,0 +1,119 @@
+.services__chart {
+    display: flex;
+    justify-content: space-between;
+   /*  flex-flow: row nowrap; */
+    margin-top: 80px;
+  }
+  
+  .single-chart {
+    
+    justify-content: space-between;
+    position: relative;
+    margin-left: 30px;
+  }
+  
+  .chart__percent {
+    position: absolute;
+    top: 21%;
+    left: 41%;
+  }    
+
+  
+  .circular-chart {
+    display: block;
+    margin: 10px auto;
+    width: 120px;
+    height: 120px;
+  }
+  
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 2;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 1;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  .circular-chart.one .circle {
+    stroke: $accent_color;
+  }
+  
+  .circular-chart.two .circle {
+    stroke:   $accent_color;
+  }
+  .circular-chart.three .circle {
+    stroke:  $accent_color;
+  }
+  
+  .circular-chart.blue .circle {
+    stroke:  $accent_color;
+  }
+  
+.chart__skill {
+    color:  $color_text;
+    font-weight: 600;
+    text-align: center;
+    font-size: 16px;
+    vertical-align: center;
+}
+@media (max-width: 1200px) {
+  .services__chart {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 60px;
+  }
+}
+@media (max-width: 980px) {
+  .services__chart {
+    margin-top: 40px;
+  }
+
+  .chart__percent {
+    position: absolute;
+    top: 29%;
+    left: 41%;
+  }   
+}
+
+
+
+@media (max-width: 500px) {
+  .single-chart {
+    margin-left: 10px;
+  }
+
+
+
+  .services__chart {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media (max-width:  430px) {
+  .services__chart {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    
+  }
+  .chart__percent {
+    top: 25%;
+    
+  } 
+}
