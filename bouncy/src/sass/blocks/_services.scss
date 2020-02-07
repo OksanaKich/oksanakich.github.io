@@ -45,7 +45,13 @@
   
     .services__icons {
       
-        justify-content: space-around;
+        justify-content: center;
+    }
+    .services__circle {
+        margin-top: 55px;
+        &:first-child {
+            margin-top: 0;
+        }
     }
 }
 
