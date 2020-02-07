@@ -22,7 +22,9 @@
 .services__info {
     flex-basis: 70%;
 }
-
+.services__left--title {
+    text-transform: none;
+}
 .services__right {
     flex-basis: 60%;
     display: flex;
