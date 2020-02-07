@@ -5,6 +5,13 @@
   outline: none;
 }
 
+/* font-family: 'M PLUS 1p', sans-serif;
+font-family: 'Quantico', sans-serif;
+font-family: 'Electrolize', sans-serif;
+font-family: 'Bungee', cursive;
+font-family: 'Bungee Inline', cursive;
+font-family: 'Faster One', cursive;
+ */
 body {
   width: 100%;
   height: 100vh;
@@ -13,7 +20,10 @@ body {
   align-items: center;
   padding: 20px;
   overflow: hidden;
-  background: linear-gradient(#CB356B, #BD3F32);
+  background: url(img/cubes.jpg) center center no-repeat;
+  background-size: cover;
+  
+
 }
 
 .app {
@@ -28,7 +38,17 @@ body {
 .app__header {
   padding: 20px;
   text-align: center;
+  font-family: 'Electrolize', sans-serif;
+  
 }
+.time {
+  font-family: 'Quantico', sans-serif;
+  color: #7c0822;
+}
+/* .result {
+  font-family: 'Electrolize', sans-serif;
+  color: #046f8a;
+} */
 
 .app__content {
   display: flex;
@@ -100,8 +120,8 @@ body {
   padding: 1rem 2.3rem;
   margin-bottom: 0;
   font-weight: normal;
-  font-family: GothamPro, sans-serif;
-  font-size: 1rem;
+  font-family: 'Quantico', sans-serif;
+  font-size: 18px;
   line-height: 1.3rem;
   text-align: center;
   white-space: nowrap;
@@ -109,7 +129,7 @@ body {
   touch-action: manipulation;
   cursor: pointer;
   user-select: none;
-  background: #fad64e;
+  background: #e4a94c;
   color: #3f3f3f;
   border: none;
   border-radius: 2.8rem;
