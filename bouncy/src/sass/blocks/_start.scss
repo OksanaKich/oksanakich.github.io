@@ -1,0 +1,21 @@
+.start {
+    background-color: #F3F3F3;
+    padding-top: 20px;
+}
+.start__wrapper {
+    background: url(../../img/bg_start.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.start__btn {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 480px) {
+    .start__wrapper {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+}

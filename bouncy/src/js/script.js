@@ -15,3 +15,12 @@ window.addEventListener('DOMContentLoaded', () => {
         })
     })
 });
+
+
+$(document).ready(function(){
+  $('.team__slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
+  });
+});
