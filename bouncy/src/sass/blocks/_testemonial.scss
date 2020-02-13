@@ -1,0 +1,21 @@
+.testemonial {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    
+}
+
+.testemonial__block {
+    background-color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testemonial__right {
+    flex-basis: 75%;
+}
+
+.testemonial__name {
+    color: $accent_color;
+    text-transform: uppercase;
+    font-weight: 700;
+}

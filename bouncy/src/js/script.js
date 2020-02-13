@@ -14,13 +14,14 @@ window.addEventListener('DOMContentLoaded', () => {
             menu.classList.toggle('menu__list_active');
         })
     })
+
+    $(document).ready(function(){
+      $('.team__slider').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+    });
 });
 
 
-$(document).ready(function(){
-  $('.team__slider').slick({
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 3
-  });
-});
