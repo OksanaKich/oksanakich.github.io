@@ -6,7 +6,7 @@ Javascript Projects:
 
 Portfolio Projects:
 
-[bouncy - landing](https://oksanakich.github.io/bouncy/src/)
+[bouncy - landing(under development)](https://oksanakich.github.io/bouncy/src/)
 
 [Folk - landing](https://oksanakich.github.io/folk/src/)
 
