@@ -2,7 +2,7 @@
 
 Javascript Projects:
 
-[js game](https://oksanakich.github.io/js-game/)
+[js game(under development)](https://oksanakich.github.io/js-game/)
 
 Portfolio Projects:
 
