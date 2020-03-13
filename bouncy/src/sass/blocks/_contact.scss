@@ -1,0 +1,40 @@
+.contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: $bg;
+}
+
+.contact__block {
+    display: flex;
+    justify-content: space-between;
+}
+.contact__item {
+    width: 30%;
+    background-color: $white;
+    text-align: center;
+    img {
+        width: 100%;
+    }
+}
+.contact__info {
+    color: $color_text;
+}
+
+.contact__title {
+    color: #464646;
+}
+
+@media (max-width: 768px) {
+
+    .contact__block {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact__item {
+        width: 90%;
+        margin-bottom: 30px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
