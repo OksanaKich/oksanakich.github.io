@@ -1,0 +1,46 @@
+.footer {
+    background-color: $bg;
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+
+
+.footer__block {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 0 auto;
+}
+.footer__logo__text {
+    color: #323A45;
+    text-align: center;
+}
+.footer__copyright {
+    color: #93979E;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__icon {
+    width: 30px;
+    height: 30px;
+}
+.footer__icon--fb {
+    fill: #3B5998;
+}
+.footer__icon--tw {
+    fill: #26A6D1;
+   
+}
+
+.footer__icon--in {
+    fill: #0E76A8;
+}
