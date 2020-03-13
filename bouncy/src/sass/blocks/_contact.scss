@@ -9,12 +9,29 @@
     justify-content: space-between;
 }
 .contact__item {
-    width: 30%;
+    width: 288px;
     background-color: $white;
     text-align: center;
+    position: relative;
     img {
         width: 100%;
     }
+}
+
+.contact__icon {
+    position: absolute;
+    z-index: 2;
+    left: 44%;
+    top: 25%;
+   /*  transform: translateY(-42%); */
+    fill: $white;
+    width: 42px;
+    height: 28px;
+    transition: 0.3s;
+    &:hover {
+        fill: $accent_color;
+    }
+
 }
 .contact__info {
     color: $color_text;
