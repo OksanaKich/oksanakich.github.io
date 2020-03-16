@@ -1,9 +1,5 @@
 # oksanakich.github.io
 
-Javascript Projects:
-
-[js game(under development)](https://oksanakich.github.io/js-game/)
-
 Portfolio Projects:
 
 [falling leaves - App landing page(under development)](https://oksanakich.github.io/falling_leaves/src/)
@@ -42,6 +38,10 @@ Studying Projects:
 
 
 
+
+Javascript Projects:
+
+[js game(under development)](https://oksanakich.github.io/js-game/)
 
 
 
