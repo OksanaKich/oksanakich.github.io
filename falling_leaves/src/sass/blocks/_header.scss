@@ -42,13 +42,13 @@
     align-items: center;
 }
 .btn_green {
-    @include btn(){
+    @include btn($green_gr, #7ED321 ){
        
     };
 }
 
 .btn_blue {
-    @include btn_blue(){
+    @include btn($blue_gr, #2170D3){
     };
 }
 .header__video {
@@ -95,12 +95,12 @@
 
     .header {
 
-        height: 60vh;
+        height: 65vh;
         
        }
     .header__phone {
       width: 100%;
-      top: 45vh;
+      top: 50vh;
     }
     .header__subtitle {
       

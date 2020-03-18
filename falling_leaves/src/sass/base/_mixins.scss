@@ -49,12 +49,12 @@
   font-size: calc(#{$minSizePercent} + (#{$maxSize} - #{$minSize}) * (100vw - #{$minWidthPx}) / (#{$maxWidth} - #{$minWidth}));
 }
 
-@mixin btn() {
+@mixin btn($bg, $border) {
   width: 170px;
   height: 46px;
   border-radius: 25px;
-  background: $green_gr;
-  border: 2px solid #7ED321;
+  background: $bg;
+  border: 2px solid $border;/* #7ED321 */
   box-shadow: 0 2px 5px (0, 0, 0, .25);
   font-size: 14px;
   line-height: 8px;
@@ -73,35 +73,7 @@
 
   &:hover {
     background: transparent;
-    border: 2px solid #7ED321;
+    border: 2px solid $border;
   }
 }
 
-@mixin btn_blue() {
-  width: 170px;
-  height: 46px;
-  border-radius: 25px;
-  background: $blue_gr;
-  border: 2px solid #2170D3;
-  box-shadow: 0 2px 5px (0, 0, 0, .25);
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 8px;
-  letter-spacing: 0.14;
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-  color: $white;
-
-  padding: 18px 0;
-  box-sizing: border-box;
-
-  transition-duration: 500ms;
-  transition-property: background, border-color;
-  @content;
-
-  &:hover {
-    background: transparent;
-    border: 2px solid #2170D3;
-  }
-}
