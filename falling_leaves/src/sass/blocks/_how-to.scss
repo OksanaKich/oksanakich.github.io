@@ -89,7 +89,7 @@
     }
 }
 
-@media(max-width: 810px) {
+@media(max-width: 480px) {
     .how-to__block {
       flex-direction: column;
     }
@@ -99,7 +99,24 @@
             margin-bottom: 20px;
         }
         &:nth-child(4) {
+            margin-bottom: 0;
+        }
+    }
+}
+
+@media(max-width: 480px) {
+    .how-to__block {
+       
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .how-to__item {
+        margin-bottom: 50px;
+        &:nth-child(1) {
             margin-bottom: 20px;
+        }
+        &:nth-child(4) {
+            margin-bottom: 0;
         }
     }
 }
