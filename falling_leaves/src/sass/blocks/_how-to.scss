@@ -96,7 +96,10 @@
     .how-to__item {
         margin-bottom: 100px;
         &:nth-child(1) {
-            margin-bottom: 23px;
+            margin-bottom: 20px;
+        }
+        &:nth-child(4) {
+            margin-bottom: 20px;
         }
     }
 }
