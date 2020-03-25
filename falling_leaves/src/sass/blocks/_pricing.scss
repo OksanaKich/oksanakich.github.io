@@ -1,0 +1,217 @@
+.pricing {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.pricing__title {
+    margin-bottom: 0;
+}
+.pricing__subtitle {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #58627C;
+
+}
+
+.pricing__block {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.pricing__item {
+    width: 220px;
+    height: 450px;
+    box-shadow: 10px 8px 26px 3px rgba(0,0,0,0.31);
+    border-radius: 5px;
+
+    &:nth-child(2) {
+        margin-left: 30px;
+    }
+    &:nth-child(3) {
+        margin-left: 30px;
+    }
+    
+}
+.pricing__item--personal {
+    position: relative;
+}
+.pricing__triangle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 38px solid #F5A623;
+    border-left: 38px solid transparent;
+   /*  border-top-right-radius: 10px;
+    border-top-right-radius: 10px; */
+}
+.pricing__star {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: -35px;
+    right: 5px;
+}
+.pricing__name {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #58627C;
+}
+.pricing__plan--personal {
+    margin-top: 0;
+    margin-bottom: 33px;
+}
+.name__span {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: center;
+    color: #58627C;
+}
+
+.pricing__plan {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 39px;
+    line-height: 26px;
+    text-align: center;
+    color: #4A90E2;
+    span {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+        color: #58627C;
+    }
+}
+.pricing__list__element {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: left;
+    color: #58627C;
+    list-style-type: none;
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -20px;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background-color: #7ED321;
+    }
+}
+
+.pricing__btn {
+      @include btn( $green_gr,#7ED321 ) {
+    };
+    margin: 0 auto;
+    margin-top: 30px;
+    display: block;
+    width: 170px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 4px;
+    text-align: center;
+    color: $white;
+    transition-duration: 5000ms;
+    transition-property: background, border;
+    &:hover, &:active {
+        background: transparent;
+        border: 2px solid #7ED321;
+        color: #58627C;
+    }
+}
+
+.pricing__support {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.pricing__need {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #5E6A89;
+}
+
+.pricing__phone {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4A90E2;
+    position: relative;
+    margin-left: 60px;
+    &:before {
+        content: url(../img/phone-call.png);
+        position: absolute;
+        left: -40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pricing {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .pricing__block {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+     
+    }
+    .pricing__item {
+        width: 100%;
+        margin-bottom: 30px;
+
+        &:nth-child(2) {
+            margin-left: 0;
+        }
+        &:nth-child(3) {
+            margin-left: 0;
+        }
+        
+    }
+    .pricing__list{
+        width: 180px;
+    margin: 0 auto;
+    }
+    .pricing__support {
+        flex-direction: column;
+    }
+    .pricing__need {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    .pricing__phone {
+        text-align: center;
+        margin-left: 24px;
+        &:before {
+           
+            left: 46px;
+        }
+    }
+    .pricing__support {
+        margin-top: 0;
+       
+    }
+}
