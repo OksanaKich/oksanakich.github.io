@@ -18,6 +18,7 @@
 .try__btn {
     
     @include btn($blue_gr, #2170D3)
+    font-weight: 500;
     &:hover {
         color: #5E6A89;
     }
