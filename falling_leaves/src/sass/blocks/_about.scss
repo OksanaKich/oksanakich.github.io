@@ -1,0 +1,130 @@
+.about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: url(../../img/bg__about.png) center center no-repeat;
+    background-size: cover;
+}
+.about__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.about__info {
+    flex-basis: 25%;
+}
+.about__name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 23px;
+    color: #FFFFFF;
+    position: relative;
+    margin-left: 50px;
+    &:before {
+        content: url(../../img/leaves.png);
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -50px;
+        width: 40px;
+        height: 40px;
+
+    }
+
+}
+
+.about__descr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    color: #AFBDE2;
+
+}
+.about__block {
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.line_green {
+    display: block;
+    width: 155px;
+    background: linear-gradient(#B5EB45, #7ED321);
+    height: 4px;
+}
+.line_blue {
+    display: block;
+    width: 155px;
+    background: linear-gradient(#80C3F3, #4A90E2);
+    height: 4px;
+}
+.line_yellow {
+    display: block;
+    width: 155px;
+    background: linear-gradient(#FBD249, #F5A623);
+    height: 4px;
+}
+.line_pink {
+    display: block;
+    width: 155px;
+    background: linear-gradient(#FB499C, #F52362);
+    height: 4px;
+}
+.about__item {
+ 
+ 
+}
+.about__subtitle {
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    letter-spacing: 1.6px;
+}
+.about__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #7C93AD;
+    }
+
+    @media (max-width: 950px) {
+        .about {
+            padding-top: 50px;
+        }
+        .about__wrap {
+            flex-direction: column;
+        } 
+        .about__info {
+          margin: 0 auto;
+            margin-bottom: 50px;
+        }
+    }
+    @media (max-width: 768px) {
+        .about__block {
+           flex-wrap: wrap;
+           justify-content: center;
+           align-items: center;
+        }
+        .about__item {
+            flex-basis: 50%;
+          
+        }
+    }
+
+    @media (max-width: 400px) {
+        .about__block {
+           flex-direction: column;
+        .about__item {
+            flex-basis: 100%;
+            margin-bottom: 30px;
+          
+        }
+        .about__subtitle {
+            margin-top: 30px;
+           
+        }
+    }
+}
