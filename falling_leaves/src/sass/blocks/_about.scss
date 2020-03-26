@@ -1,7 +1,7 @@
 .about {
     padding-top: 100px;
     padding-bottom: 100px;
-    background: url(../../img/bg__about.png) center center no-repeat;
+    background: url(../img/bg__about.png) center center no-repeat;
     background-size: cover;
 }
 .about__wrap {
@@ -20,7 +20,7 @@
     position: relative;
     margin-left: 50px;
     &:before {
-        content: url(../../img/leaves.png);
+        content: url(../img/leaves.png);
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
