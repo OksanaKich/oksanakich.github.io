@@ -2,7 +2,7 @@
 
 Portfolio Projects:
 
-[falling leaves - App landing page(under development)](https://oksanakich.github.io/falling_leaves/src/)
+[falling leaves - App landing page](https://oksanakich.github.io/falling_leaves/src/)
 
 [bouncy - landing](https://oksanakich.github.io/bouncy/src/)
 
