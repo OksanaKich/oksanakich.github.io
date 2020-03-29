@@ -1,6 +1,8 @@
 # oksanakich.github.io
+[slider -practice](https://oksanakich.github.io/slider/src/)
 
 Portfolio Projects:
+
 
 [falling leaves - App landing page](https://oksanakich.github.io/falling_leaves/src/)
 
