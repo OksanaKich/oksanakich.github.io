@@ -1,5 +1,5 @@
 # oksanakich.github.io
-[slider -practice] [https://oksanakich.github.io/slider/src/]
+[slider -practice][https://oksanakich.github.io/slider/src/]
 
 Portfolio Projects:
 
