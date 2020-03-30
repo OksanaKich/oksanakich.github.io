@@ -156,6 +156,7 @@
     border: 2px solid #ddd0cd;
 
     cursor: pointer;
+   /*  opacity: .75; */
 }
 .slick-dots li button
 {

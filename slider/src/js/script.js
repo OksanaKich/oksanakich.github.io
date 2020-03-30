@@ -10,7 +10,7 @@ $(document).ready(function(){
      $('.slider-banner').slick({
         dots: true,
         infinite: true,
-        speed: 300,
+        speed: 1000,
         arrows: true,
         responsive: [
          {
