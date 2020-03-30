@@ -1,5 +1,6 @@
 .slider-banner__item {
    position: relative;
+  
    &:after {
        position: absolute;
         content: '';
@@ -10,12 +11,9 @@
         top: 50%;
         transform: translateY(-50%);
         right: 0;
-      
    }
 }
-
 .title {
-    
     font-family: 'Mirza', cursive;
 /*     font-family: 'MedievalSharp', cursive;  */
     font-weight: 700;
@@ -40,17 +38,28 @@
     text-shadow: 0 1px #151513, -1px 0 #4a4a40, -1px 2px #151513, -2px 1px #4a4a40, -2px 3px #151513, -3px 2px #4a4a40, -3px 4px #151513, -4px 3px #4a4a40, -4px 5px #151513, -5px 4px #4a4a40, -5px 6px #151513, -6px 5px #4a4a40, -6px 7px #151513, -7px 6px #4a4a40, -7px 8px #151513, -8px 7px #4a4a40;;
 
 }
+
+.slider-banner__arrow-back {
+    fill: #82899b;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 @media (max-width: 768px) {
     .title {
         font-size:  90px;
+       
     }
     .slider-banner__img {
         height: 100vh;
+       
     }
 }
 
 @media (max-width: 480px) {
     .title {
-        font-size:  60px;
+        font-size:  50px;
+        left: 8%;
+        right: 2%;
     }
 }

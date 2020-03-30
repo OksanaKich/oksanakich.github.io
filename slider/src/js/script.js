@@ -11,7 +11,17 @@ $(document).ready(function(){
         dots: true,
         infinite: true,
         speed: 300,
-        arrows: true
+        arrows: true,
+        responsive: [
+         {
+           breakpoint: 768,
+           settings: {
+             arrows: false,
+            
+           }
+         },
+       ]
+    
      });  
      
      
