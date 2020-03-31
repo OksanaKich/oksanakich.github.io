@@ -99,13 +99,13 @@
     .slick-prev:before
     {
        
-        content: url('../../img/left60.png');
+        content: url('../img/left60.png');
      
         
     }
     [dir='rtl'] .slick-prev:before
     {
-        content: url('../../img/left60.png');
+        content: url('../img/left60.png');
     }
     
     .slick-next
@@ -119,11 +119,11 @@
     }
     .slick-next:before
     {
-        content:  url('../../img/right60.png');
+        content:  url('../img/right60.png');
     }
     [dir='rtl'] .slick-next:before
     {
-        content:  url('../../img/right60.png');
+        content:  url('../img/right60.png');
     }
     
 
