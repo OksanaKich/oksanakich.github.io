@@ -1,0 +1,19 @@
+.subtitle {
+   /*  font-family: 'Mirza', cursive; */
+        font-family: 'MedievalSharp', cursive; 
+        font-weight: 700;
+    
+        color: #31303b;
+        text-shadow: 0 1px #111e26, -1px 0 #82899b, -1px 2px #111e26, -2px 1px #82899b, -2px 3px #111e26, -3px 2px #82899b, -3px 4px #111e26, -4px 3px #82899b, -4px 5px #111e26, -5px 4px #82899b, -5px 6px #111e26, -6px 5px #82899b, -6px 7px #111e26, -7px 6px #82899b, -7px 8px #111e26, -8px 7px #82899b;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-size: 120px;
+    
+        z-index: 2;
+}
+
+@media (max-width: 480px) {
+    .subtitle {
+        font-size: 80px;
+    }
+}
