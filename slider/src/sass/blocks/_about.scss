@@ -236,13 +236,13 @@
 @media (max-width: 520px) {
     
 .about__wrap {
-    padding-top: 50px;
     padding-bottom: 0;
+
   
 }
 .about__subtitle {
     margin-top: 50px;
-    margin-bottom: 0;
+    margin-bottom: 30px;
   
   
 }
@@ -253,10 +253,12 @@
         }
     }
     .about__text {
-        margin-top: 20%;
+        margin-top: 15%;
         line-height: 24px;
         font-size: 18px;
-        padding-top: 20%;
+        padding-top: 15%;
+        height: 500px;
+       
        
     }
     .quote-left  {

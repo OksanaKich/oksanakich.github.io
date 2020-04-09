@@ -1,0 +1,18 @@
+footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #31303b;
+}
+.footer__info {
+    color: $white;
+    text-align: center;
+  
+    span {
+        margin-top: 0;
+        color: #989dbd;
+    }
+  
+}
+.footer__info_m {
+    margin-top: -10px;
+}

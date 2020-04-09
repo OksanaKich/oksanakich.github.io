@@ -1,0 +1,13 @@
+.fade__slider {
+    padding-top: 100px;
+    padding-bottom: 100px;
+ 
+}
+
+@media (max-width: 520px) {
+    .fade__slider {
+        padding-top: 50px;
+        padding-bottom: 20px;
+     
+    }
+} 

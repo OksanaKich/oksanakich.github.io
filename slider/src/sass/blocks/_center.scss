@@ -1,0 +1,18 @@
+.center {
+    margin-bottom: 100px;
+}
+
+.center__subtitle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 520px) {
+    .center {
+        margin-bottom: 60px;
+    }
+    .center__subtitle {
+        margin-top: 0;
+        font-size: 70px;
+    }
+} 
