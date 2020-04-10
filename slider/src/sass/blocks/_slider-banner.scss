@@ -13,6 +13,11 @@
         right: 0;
    }
 }
+
+.slider-banner__img {
+    height: 80vh;
+   
+}
 .title {
     font-family: 'Mirza', cursive;
 /*     font-family: 'MedievalSharp', cursive;  */
@@ -44,6 +49,13 @@
     position: absolute;
     top: 0;
     left: 0;
+}
+
+@media (max-width: 1200px) {
+    .slider-banner__img {
+        height: 100vh;
+       
+    }
 }
 @media (max-width: 768px) {
     .title {

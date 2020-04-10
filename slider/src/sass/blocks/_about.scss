@@ -233,6 +233,12 @@
         margin-top: 40%;
     }
 }
+
+@media (max-width: 768px) {
+    .about__text {
+        margin-top: 48%;
+    }
+}
 @media (max-width: 520px) {
     
 .about__wrap {
@@ -242,7 +248,7 @@
 }
 .about__subtitle {
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 0;
   
   
 }
@@ -253,7 +259,7 @@
         }
     }
     .about__text {
-        margin-top: 15%;
+        margin-top: 20%;
         line-height: 24px;
         font-size: 18px;
         padding-top: 15%;
@@ -263,9 +269,10 @@
     }
     .quote-left  {
         top: 5%;
-        left: 0%;
+        left: 0;
     }
     .quote-right  {
-       bottom: 22%;
+       bottom: 15%;
+       right: 0;
     }
 }
