@@ -1,5 +1,5 @@
 # oksanakich.github.io
-
+[slider -practice](https://oksanakich.github.io/slider/src/)
 
 Portfolio Projects:
 
@@ -39,7 +39,7 @@ Studying Projects:
 [Some of these pages were made by video tutorials, thank the authors.]
 
 
-[slider -practice](https://oksanakich.github.io/slider/src/)
+
 
 
 Javascript Projects:
