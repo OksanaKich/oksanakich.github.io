@@ -24,6 +24,8 @@ Studying Projects:
 
 [Uber Partners](https://oksanakich.github.io/uber/)
 
+[to2rent](https://oksanakich.github.io/rent/)
+
 [Bootstrap practice](https://oksanakich.github.io/bootstrap/)
 
 [Webinar - promotion simgle page](https://oksanakich.github.io/wordpress/)
