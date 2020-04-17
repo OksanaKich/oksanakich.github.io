@@ -192,3 +192,91 @@ header {
     line-height: 24px;
     color: #FFFFFF;
 }
+
+.reason {
+    padding: 100px 0;
+}
+
+.reason__inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reason__item {
+    width: 470px;
+}
+
+.reason__title {
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    padding-left: 136px;
+    position: relative;
+}
+
+.reason__title::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 103px;
+    height: 103px;
+}
+
+.reason__title--item-1::before {
+    background-image: url(../images/clock.png);
+}
+
+.reason__title--item-2::before {
+    background-image: url(../images/earth.png);
+}
+
+.reason__text {
+    margin-bottom: 42px;
+}
+
+.reason__link {
+    color: #888;
+    padding-left: 36px;
+    position: relative;
+}
+
+.reason__link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -4px;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/arrow.svg);
+}
+
+.best {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    text-align: right;
+}
+
+.best__title {
+    max-width: 492px;
+    margin: 68px 0 15px auto;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'PT Serif', serif;
+    font-size: 48px;
+    line-height: 48px;
+    padding-top: 68px;
+    padding-bottom: 15px;
+}
+
+.best__link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    padding: 16px 18px;
+    display: inline-block;
+}
