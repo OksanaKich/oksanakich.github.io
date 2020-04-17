@@ -26,6 +26,10 @@ header {
 }
 .header__logo {
     padding: 88px 0 60px;
+   
+}
+
+.logo__link {
     background-color: #fff;
 }
 
@@ -450,8 +454,9 @@ width: 300px;
 }
 
 .footer__logo {
-    padding: 3px 0 23px;
+    padding: 3px 0 0;
     text-align: center;
+    
 }
 
 /* MEDIA */
@@ -583,7 +588,7 @@ width: 300px;
     .footer__form-input {
         margin-bottom: 15px;
         text-align: center;
-        width: 330px;
+        width: 250px;
       
 
     }
