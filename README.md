@@ -1,5 +1,5 @@
 # oksanakich.github.io
-[slider -practice](https://oksanakich.github.io/slider/src/)
+
 
 Portfolio Projects:
 
@@ -49,7 +49,7 @@ Javascript Projects:
 [js game(under development)](https://oksanakich.github.io/js-game/)
 
 
-
+[slider -practice](https://oksanakich.github.io/slider/src/)
 
 
 Own projects:
